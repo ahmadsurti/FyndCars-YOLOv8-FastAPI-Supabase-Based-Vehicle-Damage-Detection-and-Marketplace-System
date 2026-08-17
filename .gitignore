@@ -1,0 +1,31 @@
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Environment secrets — NEVER commit
+backend/.env
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.venv/
+backend/venv/
+backend/*.pyc
+backend/*.pyo
+backend/.pytest_cache/
+backend/outputs/
+
+# ML artifacts (keep best.pt — it's only 5.9MB and needed for dev)
+# Add here if you ever add larger model files:
+# backend/models/large_model.pt
+
+# Supabase local dev
+supabase/.temp/

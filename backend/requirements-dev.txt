@@ -1,0 +1,2 @@
+# fynd(cars) — Dev-only dependencies (not needed in production)
+pytest>=7.4.0
