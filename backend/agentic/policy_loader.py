@@ -1,9 +1,7 @@
 from __future__ import annotations
-
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List
-
 import yaml
 
 
@@ -23,22 +21,15 @@ class Policy:
 
 
 def load_policy(policies_dir: str | Path) -> Policy:
-    policies_dir = Path(policies_dir)
-    rules_path = policies_dir / "rules.yaml"
-
-    data = yaml.safe_load(rules_path.read_text(encoding="utf-8"))
-    thresholds = data.get("thresholds", {}) or {}
-
-    rules: List[Rule] = []
-    for item in data.get("rules", []):
-        rules.append(
-            Rule(
-                name=item["name"],
-                cond=item.get("if", {}) or {},
-                action=item["then"]["action"],
-                sop_ref=item["then"]["sop_ref"],
-                reason=item["then"]["reason"],
-            )
+    data = yaml.safe_load((Path(policies_dir) / "rules.yaml").read_text(encoding="utf-8")) or {}
+    rules = [
+        Rule(
+            name=item["name"],
+            cond=item.get("if") or {},
+            action=item["then"]["action"],
+            sop_ref=item["then"]["sop_ref"],
+            reason=item["then"]["reason"],
         )
-
-    return Policy(thresholds=thresholds, rules=rules)
+        for item in data.get("rules", [])
+    ]
+    return Policy(thresholds=data.get("thresholds") or {}, rules=rules)

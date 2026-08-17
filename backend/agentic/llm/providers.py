@@ -18,7 +18,7 @@ class OpenAICompatibleProvider:
     """
     base_url: str
     api_key: str
-    model: str = "gpt-4o-mini"
+    model: str = "google/gemma-4-31b-it:free"
     timeout_s: float = 30.0
 
     def generate(self, prompt: str) -> str:

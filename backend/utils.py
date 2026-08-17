@@ -1,9 +1,30 @@
 """
 fynd(cars) — Shared helpers for the FastAPI backend.
-Only functions actively called from the assessment pipeline live here.
+Single source of truth for assessment stats, timestamps, and asset downloads.
 """
 
-from typing import Dict, List
+from datetime import datetime, timezone
+from typing import Dict, List, Optional
+import httpx
+from db import supabase
+
+
+def utc_now_iso() -> str:
+    """Return current UTC time in ISO format with timezone."""
+    return datetime.now(timezone.utc).isoformat()
+
+
+async def fetch_image_bytes(storage_path: str) -> Optional[bytes]:
+    """Download image bytes from a public URL or Supabase Storage 'bucket/path'."""
+    if storage_path.startswith(("http://", "https://")):
+        async with httpx.AsyncClient() as client:
+            resp = await client.get(storage_path, timeout=15.0)
+            return resp.content if resp.status_code == 200 else None
+    if supabase:
+        bucket, _, fpath = storage_path.partition("/")
+        if fpath:
+            return supabase.storage.from_(bucket).download(fpath)
+    return None
 
 
 def calculate_damage_stats(detections: List[Dict]) -> Dict:
@@ -12,6 +33,7 @@ def calculate_damage_stats(detections: List[Dict]) -> Dict:
         return {
             "total_damages": 0, "damage_types": {}, "severity_distribution": {"minor": 0, "moderate": 0, "severe": 0},
             "average_confidence": 0.0, "total_area_affected": 0.0, "total_estimated_cost": 0, "risk_assessment": "No damage detected",
+            "most_common_damage": "none",
         }
 
     types: Dict[str, int] = {}

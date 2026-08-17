@@ -149,7 +149,9 @@ def install_db(monkeypatch):
     """install_db({...}) swaps the route modules' `supabase` for a fake primed with seed data."""
     def _install(data=None):
         fake = FakeSupabase(data)
-        import routes.listings, routes.admin, routes.marketplace
+        import routes.admin
+        import routes.listings
+        import routes.marketplace
         for module in (routes.listings, routes.admin, routes.marketplace):
             monkeypatch.setattr(module, "supabase", fake)
         return fake

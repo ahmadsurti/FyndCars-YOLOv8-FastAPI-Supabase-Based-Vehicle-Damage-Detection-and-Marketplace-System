@@ -1,0 +1,4053 @@
+[
+  {
+    "make": "Lancia",
+    "model": "Delta",
+    "variant": "Argento",
+    "year_start": 2008,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Delta",
+    "variant": "Oro",
+    "year_start": 2008,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Delta",
+    "variant": "Platino",
+    "year_start": 2008,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Thema",
+    "variant": "Executive",
+    "year_start": 2011,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Thema",
+    "variant": "Gold",
+    "year_start": 2011,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Thema",
+    "variant": "Platinum",
+    "year_start": 2011,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Ypsilon",
+    "variant": "Edizione Limitata",
+    "year_start": 2011,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Ypsilon",
+    "variant": "Gold",
+    "year_start": 2011,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lancia",
+    "model": "Ypsilon",
+    "variant": "Silver",
+    "year_start": 2011,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Arona",
+    "variant": "FR",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Arona",
+    "variant": "Style",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Arona",
+    "variant": "Xperience",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ateca",
+    "variant": "FR",
+    "year_start": 2016,
+    "year_end": 2025,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ateca",
+    "variant": "Reference",
+    "year_start": 2016,
+    "year_end": 2025,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ateca",
+    "variant": "Style",
+    "year_start": 2016,
+    "year_end": 2025,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ateca",
+    "variant": "Xcellence",
+    "year_start": 2016,
+    "year_end": 2025,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ibiza",
+    "variant": "FR",
+    "year_start": 1984,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ibiza",
+    "variant": "Style",
+    "year_start": 1984,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Ibiza",
+    "variant": "Xcellence",
+    "year_start": 1984,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon",
+    "variant": "FR",
+    "year_start": 1999,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon",
+    "variant": "Style",
+    "year_start": 1999,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon",
+    "variant": "Xcellence",
+    "year_start": 1999,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon Sportstourer",
+    "variant": "FR",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "wagon",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon Sportstourer",
+    "variant": "Style",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "wagon",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Leon Sportstourer",
+    "variant": "Xcellence",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "wagon",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Tarraco",
+    "variant": "FR",
+    "year_start": 2018,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Tarraco",
+    "variant": "Style",
+    "year_start": 2018,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SEAT",
+    "model": "Tarraco",
+    "variant": "Xcellence",
+    "year_start": 2018,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Ateca",
+    "variant": "VZ",
+    "year_start": 2018,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Ateca",
+    "variant": "VZ2",
+    "year_start": 2018,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Born",
+    "variant": "58 kWh",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Born",
+    "variant": "77 kWh",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Born",
+    "variant": "VZ",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Formentor",
+    "variant": "V1",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Formentor",
+    "variant": "V2",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Formentor",
+    "variant": "VZ",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Formentor",
+    "variant": "VZ2",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Leon",
+    "variant": "V1",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Leon",
+    "variant": "V2",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Leon",
+    "variant": "VZ",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Leon",
+    "variant": "VZ2",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Tavascan",
+    "variant": "Endurance",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Tavascan",
+    "variant": "VZ",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Terramar",
+    "variant": "V1",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Terramar",
+    "variant": "V2",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "CUPRA",
+    "model": "Terramar",
+    "variant": "VZ",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#1",
+    "variant": "BRABUS",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#1",
+    "variant": "Premium",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#1",
+    "variant": "Pro+",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#3",
+    "variant": "BRABUS",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#3",
+    "variant": "Premium",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#3",
+    "variant": "Pro+",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#5",
+    "variant": "BRABUS",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#5",
+    "variant": "Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "#5",
+    "variant": "Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "forfour",
+    "variant": "Passion",
+    "year_start": 2004,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "forfour",
+    "variant": "Prime",
+    "year_start": 2004,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "forfour",
+    "variant": "Proxy",
+    "year_start": 2004,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "fortwo",
+    "variant": "Passion",
+    "year_start": 1998,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "fortwo",
+    "variant": "Prime",
+    "year_start": 1998,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Smart",
+    "model": "fortwo",
+    "variant": "Proxy",
+    "year_start": 1998,
+    "year_end": 2019,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Agera",
+    "variant": "R",
+    "year_start": 2010,
+    "year_end": 2018,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Agera",
+    "variant": "S",
+    "year_start": 2010,
+    "year_end": 2018,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Agera",
+    "variant": "Standard",
+    "year_start": 2010,
+    "year_end": 2018,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "CCX",
+    "variant": "Edition",
+    "year_start": 2006,
+    "year_end": 2010,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "CCX",
+    "variant": "Standard",
+    "year_start": 2006,
+    "year_end": 2010,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Gemera",
+    "variant": "HV8",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Gemera",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Jesko",
+    "variant": "Absolut",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Jesko",
+    "variant": "Attack",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Regera",
+    "variant": "Standard",
+    "year_start": 2016,
+    "year_end": 2022,
+    "body_type": "coupe",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Huayra",
+    "variant": "BC",
+    "year_start": 2012,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Huayra",
+    "variant": "Coupe",
+    "year_start": 2012,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Huayra",
+    "variant": "Roadster",
+    "year_start": 2012,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Utopia",
+    "variant": "Coupe",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Utopia",
+    "variant": "Roadster",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Zonda",
+    "variant": "C12",
+    "year_start": 1999,
+    "year_end": 2017,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Zonda",
+    "variant": "F",
+    "year_start": 1999,
+    "year_end": 2017,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Pagani",
+    "model": "Zonda",
+    "variant": "R",
+    "year_start": 1999,
+    "year_end": 2017,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Rimac",
+    "model": "Concept_One",
+    "variant": "Standard",
+    "year_start": 2013,
+    "year_end": 2018,
+    "body_type": "coupe",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Rimac",
+    "model": "Nevera",
+    "variant": "Nevera R",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Rimac",
+    "model": "Nevera",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C12",
+    "variant": "La Turbie",
+    "year_start": 2006,
+    "year_end": 2007,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C12",
+    "variant": "Zagato",
+    "year_start": 2006,
+    "year_end": 2007,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C8",
+    "variant": "Aileron",
+    "year_start": 2000,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C8",
+    "variant": "Laviolette",
+    "year_start": 2000,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C8",
+    "variant": "Preliator",
+    "year_start": 2000,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Spyker",
+    "model": "C8",
+    "variant": "Spyder",
+    "year_start": 2000,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Iriz",
+    "variant": "1.3 Standard CVT",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Iriz",
+    "variant": "1.6 Active CVT",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Iriz",
+    "variant": "1.6 Executive CVT",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Persona",
+    "variant": "1.6 Executive CVT",
+    "year_start": 2007,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Persona",
+    "variant": "1.6 Premium CVT",
+    "year_start": 2007,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Persona",
+    "variant": "1.6 Standard CVT",
+    "year_start": 2007,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "S70",
+    "variant": "1.5T Executive",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "S70",
+    "variant": "1.5T Flagship",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "S70",
+    "variant": "1.5T Flagship X",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "S70",
+    "variant": "1.5T Premium",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Saga",
+    "variant": "Executive",
+    "year_start": 1985,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Saga",
+    "variant": "Premium",
+    "year_start": 1985,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "Saga",
+    "variant": "Standard",
+    "year_start": 1985,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X50",
+    "variant": "1.5T Executive",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X50",
+    "variant": "1.5T Flagship",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X50",
+    "variant": "1.5T Premium",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X70",
+    "variant": "1.5T Executive",
+    "year_start": 2018,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X70",
+    "variant": "1.5T Premium",
+    "year_start": 2018,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X90",
+    "variant": "1.5 TGDI BSG Executive",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X90",
+    "variant": "1.5 TGDI BSG Flagship",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X90",
+    "variant": "1.5 TGDI BSG Premium",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "X90",
+    "variant": "1.5 TGDI BSG Standard",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "e.MAS 5",
+    "variant": "Premium",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "e.MAS 5",
+    "variant": "Prime",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "e.MAS 7",
+    "variant": "Prime",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Proton",
+    "model": "e.MAS 7",
+    "variant": "Ultra",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Alza",
+    "variant": "1.5 AV",
+    "year_start": 2009,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Alza",
+    "variant": "1.5 H",
+    "year_start": 2009,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Alza",
+    "variant": "1.5 X",
+    "year_start": 2009,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Aruz",
+    "variant": "1.5 AV",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Aruz",
+    "variant": "1.5 X",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Ativa",
+    "variant": "1.0 AV",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Ativa",
+    "variant": "1.0 H",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Ativa",
+    "variant": "1.0 X",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Axia",
+    "variant": "AV",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Axia",
+    "variant": "G",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Axia",
+    "variant": "SE",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Axia",
+    "variant": "X",
+    "year_start": 2014,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Bezza",
+    "variant": "1.0 G",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Bezza",
+    "variant": "1.3 AV",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Bezza",
+    "variant": "1.3 X",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kancil",
+    "variant": "850",
+    "year_start": 1994,
+    "year_end": 2009,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kancil",
+    "variant": "EX",
+    "year_start": 1994,
+    "year_end": 2009,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kancil",
+    "variant": "EZ",
+    "year_start": 1994,
+    "year_end": 2009,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kelisa",
+    "variant": "EZ",
+    "year_start": 2001,
+    "year_end": 2007,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kelisa",
+    "variant": "EZi",
+    "year_start": 2001,
+    "year_end": 2007,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Kelisa",
+    "variant": "GXi",
+    "year_start": 2001,
+    "year_end": 2007,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Myvi",
+    "variant": "1.3 G",
+    "year_start": 2005,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Myvi",
+    "variant": "1.3 X",
+    "year_start": 2005,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Myvi",
+    "variant": "1.5 AV",
+    "year_start": 2005,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Myvi",
+    "variant": "1.5 H",
+    "year_start": 2005,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Viva",
+    "variant": "1.0 EZi",
+    "year_start": 2007,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Viva",
+    "variant": "660 EX",
+    "year_start": 2007,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Perodua",
+    "model": "Viva",
+    "variant": "850 EZ",
+    "year_start": 2007,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Curvv EV",
+    "variant": "Accomplished",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Curvv EV",
+    "variant": "Accomplished+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Curvv EV",
+    "variant": "Creative",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Curvv EV",
+    "variant": "Empowered+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Nexon EV",
+    "variant": "XM",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Nexon EV",
+    "variant": "XZ+",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Nexon EV",
+    "variant": "XZ+ Lux",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Punch EV",
+    "variant": "Adventure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Punch EV",
+    "variant": "Empowered+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Punch EV",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Punch EV",
+    "variant": "Smart+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tiago EV",
+    "variant": "XE",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tiago EV",
+    "variant": "XT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tiago EV",
+    "variant": "XZ+ Tech Lux",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tigor EV",
+    "variant": "XE",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tigor EV",
+    "variant": "XT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata EV",
+    "model": "Tigor EV",
+    "variant": "XZ+",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "124 Spider",
+    "variant": "124 GT",
+    "year_start": 2016,
+    "year_end": 2019,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "124 Spider",
+    "variant": "124 Spider",
+    "year_start": 2016,
+    "year_end": 2019,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "500e",
+    "variant": "Cabrio",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "500e",
+    "variant": "Hatchback",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "500e",
+    "variant": "Turismo",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "595",
+    "variant": "595",
+    "year_start": 2012,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "595",
+    "variant": "595 Competizione",
+    "year_start": 2012,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "595",
+    "variant": "595 Turismo",
+    "year_start": 2012,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "695",
+    "variant": "595?",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "695",
+    "variant": "695 Competizione",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Abarth",
+    "model": "695",
+    "variant": "695 Turismo",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "FR-S",
+    "variant": "Base",
+    "year_start": 2012,
+    "year_end": 2016,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "FR-S",
+    "variant": "Release Series",
+    "year_start": 2012,
+    "year_end": 2016,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "iQ",
+    "variant": "Base",
+    "year_start": 2011,
+    "year_end": 2015,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "iQ",
+    "variant": "Monogram",
+    "year_start": 2011,
+    "year_end": 2015,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "tC",
+    "variant": "Base",
+    "year_start": 2004,
+    "year_end": 2016,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "tC",
+    "variant": "Release Series",
+    "year_start": 2004,
+    "year_end": 2016,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "xA",
+    "variant": "Base",
+    "year_start": 2003,
+    "year_end": 2008,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "xB",
+    "variant": "Base",
+    "year_start": 2003,
+    "year_end": 2015,
+    "body_type": "wagon",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "xB",
+    "variant": "Release Series",
+    "year_start": 2003,
+    "year_end": 2015,
+    "body_type": "wagon",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "xD",
+    "variant": "Base",
+    "year_start": 2008,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Scion",
+    "model": "xD",
+    "variant": "Release Series",
+    "year_start": 2008,
+    "year_end": 2014,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Aura",
+    "variant": "Green Line",
+    "year_start": 2006,
+    "year_end": 2009,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Aura",
+    "variant": "XE",
+    "year_start": 2006,
+    "year_end": 2009,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Aura",
+    "variant": "XR",
+    "year_start": 2006,
+    "year_end": 2009,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Ion",
+    "variant": "Coupe",
+    "year_start": 2003,
+    "year_end": 2007,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Ion",
+    "variant": "Red Line",
+    "year_start": 2003,
+    "year_end": 2007,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Ion",
+    "variant": "Sedan",
+    "year_start": 2003,
+    "year_end": 2007,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Outlook",
+    "variant": "XE",
+    "year_start": 2006,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Outlook",
+    "variant": "XR",
+    "year_start": 2006,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "S-Series",
+    "variant": "SC",
+    "year_start": 1991,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "S-Series",
+    "variant": "SL",
+    "year_start": 1991,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "S-Series",
+    "variant": "SW",
+    "year_start": 1991,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Sky",
+    "variant": "Base",
+    "year_start": 2006,
+    "year_end": 2009,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Sky",
+    "variant": "Red Line",
+    "year_start": 2006,
+    "year_end": 2009,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Vue",
+    "variant": "Base",
+    "year_start": 2002,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Vue",
+    "variant": "Green Line",
+    "year_start": 2002,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Vue",
+    "variant": "XE",
+    "year_start": 2002,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saturn",
+    "model": "Vue",
+    "variant": "XR",
+    "year_start": 2002,
+    "year_end": 2010,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Barracuda",
+    "variant": "440",
+    "year_start": 1964,
+    "year_end": 1974,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Barracuda",
+    "variant": "Formula S",
+    "year_start": 1964,
+    "year_end": 1974,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Breeze",
+    "variant": "Base",
+    "year_start": 1996,
+    "year_end": 2000,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Breeze",
+    "variant": "Expresso",
+    "year_start": 1996,
+    "year_end": 2000,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Grand Voyager",
+    "variant": "Expresso",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Grand Voyager",
+    "variant": "LX",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Grand Voyager",
+    "variant": "SE",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Neon",
+    "variant": "Base",
+    "year_start": 1994,
+    "year_end": 2001,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Neon",
+    "variant": "Highline",
+    "year_start": 1994,
+    "year_end": 2001,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Neon",
+    "variant": "Sport",
+    "year_start": 1994,
+    "year_end": 2001,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Prowler",
+    "variant": "Base",
+    "year_start": 1997,
+    "year_end": 2001,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Prowler",
+    "variant": "Mulholland",
+    "year_start": 1997,
+    "year_end": 2001,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Voyager",
+    "variant": "Base",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Voyager",
+    "variant": "LE",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Plymouth",
+    "model": "Voyager",
+    "variant": "SE",
+    "year_start": 1990,
+    "year_end": 2000,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-3",
+    "variant": "Aero",
+    "year_start": 1998,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-3",
+    "variant": "Arc",
+    "year_start": 1998,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-3",
+    "variant": "Linear",
+    "year_start": 1998,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-5",
+    "variant": "Aero",
+    "year_start": 1997,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-5",
+    "variant": "Arc",
+    "year_start": 1997,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-5",
+    "variant": "Linear",
+    "year_start": 1997,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-7X",
+    "variant": "4.2i",
+    "year_start": 2005,
+    "year_end": 2009,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-7X",
+    "variant": "5.3i",
+    "year_start": 2005,
+    "year_end": 2009,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9-7X",
+    "variant": "Aero",
+    "year_start": 2005,
+    "year_end": 2009,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "900",
+    "variant": "S",
+    "year_start": 1978,
+    "year_end": 1998,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "900",
+    "variant": "SE",
+    "year_start": 1978,
+    "year_end": 1998,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "900",
+    "variant": "Turbo",
+    "year_start": 1978,
+    "year_end": 1998,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "variant": "Aero",
+    "year_start": 1984,
+    "year_end": 1998,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "variant": "CDE",
+    "year_start": 1984,
+    "year_end": 1998,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "variant": "CS",
+    "year_start": 1984,
+    "year_end": 1998,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Cerbera",
+    "variant": "4.2",
+    "year_start": 1996,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Cerbera",
+    "variant": "4.5",
+    "year_start": 1996,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Cerbera",
+    "variant": "Speed Six",
+    "year_start": 1996,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Chimaera",
+    "variant": "4.0",
+    "year_start": 1992,
+    "year_end": 2006,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Chimaera",
+    "variant": "4.3",
+    "year_start": 1992,
+    "year_end": 2006,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Chimaera",
+    "variant": "4.5",
+    "year_start": 1992,
+    "year_end": 2006,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Griffith",
+    "variant": "4.0",
+    "year_start": 1991,
+    "year_end": 2002,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Griffith",
+    "variant": "5.0",
+    "year_start": 1991,
+    "year_end": 2002,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Sagaris",
+    "variant": "Standard",
+    "year_start": 2004,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Tamora",
+    "variant": "Standard",
+    "year_start": 2002,
+    "year_end": 2006,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Tuscan",
+    "variant": "2",
+    "year_start": 1999,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Tuscan",
+    "variant": "S",
+    "year_start": 1999,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "TVR",
+    "model": "Tuscan",
+    "variant": "Speed Six",
+    "year_start": 1999,
+    "year_end": 2006,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "3 Wheeler",
+    "variant": "P101",
+    "year_start": 2011,
+    "year_end": 2021,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "3 Wheeler",
+    "variant": "Standard",
+    "year_start": 2011,
+    "year_end": 2021,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Aero 8",
+    "variant": "GTN",
+    "year_start": 2000,
+    "year_end": 2019,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Aero 8",
+    "variant": "Series 1",
+    "year_start": 2000,
+    "year_end": 2019,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Aero 8",
+    "variant": "Series 2",
+    "year_start": 2000,
+    "year_end": 2019,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus 8",
+    "variant": "GTR",
+    "year_start": 1968,
+    "year_end": 2018,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus 8",
+    "variant": "Standard",
+    "year_start": 1968,
+    "year_end": 2018,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus Four",
+    "variant": "CX-T",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus Four",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus Six",
+    "variant": "Standard",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Plus Six",
+    "variant": "Touring",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Super 3",
+    "variant": "Launch Edition",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Morgan",
+    "model": "Super 3",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M12",
+    "variant": "GTO-3",
+    "year_start": 2000,
+    "year_end": 2008,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M12",
+    "variant": "GTO-3 SP",
+    "year_start": 2000,
+    "year_end": 2008,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M12",
+    "variant": "GTO-3R",
+    "year_start": 2000,
+    "year_end": 2008,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M400",
+    "variant": "Standard",
+    "year_start": 2004,
+    "year_end": 2007,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M500",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M600",
+    "variant": "CarbonSport",
+    "year_start": 2010,
+    "year_end": 2022,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Noble",
+    "model": "M600",
+    "variant": "Standard",
+    "year_start": 2010,
+    "year_end": 2022,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Karma",
+    "variant": "EcoChic",
+    "year_start": 2011,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Karma",
+    "variant": "EcoLuxury",
+    "year_start": 2011,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Karma",
+    "variant": "EcoSport",
+    "year_start": 2011,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Ocean",
+    "variant": "Extreme",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Ocean",
+    "variant": "One",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Ocean",
+    "variant": "Sport",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fisker",
+    "model": "Ocean",
+    "variant": "Ultra",
+    "year_start": 2022,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS"
+    ],
+    "colors": []
+  }
+]

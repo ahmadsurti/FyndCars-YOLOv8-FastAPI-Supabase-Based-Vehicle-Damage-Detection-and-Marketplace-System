@@ -14,3 +14,11 @@ SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
 # Initialize client if configured; in local/test without Supabase, remains None
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY) if (SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY) else None
 
+
+def get_db() -> Client:
+    """Return active Supabase client or raise 503 Service Unavailable."""
+    if not supabase:
+        from fastapi import HTTPException
+        raise HTTPException(503, "Database client unavailable")
+    return supabase
+

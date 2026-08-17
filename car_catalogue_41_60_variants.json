@@ -1,0 +1,2978 @@
+[
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "D1",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "A EPS",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "D",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "NXT",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "T(O)",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO",
+    "variant": "T",
+    "year_start": 2014,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Amber-Orange",
+      "Vivid Blue",
+      "Opal White",
+      "Crystal Silver",
+      "Bronze Grey",
+      "Ruby Red"
+    ]
+  },
+  {
+    "make": "Datsun",
+    "model": "GO+",
+    "variant": "D",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "GO+",
+    "variant": "A",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "GO+",
+    "variant": "T",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "GO+",
+    "variant": "T(O)",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "redi-GO",
+    "variant": "D",
+    "year_start": 2016,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "redi-GO",
+    "variant": "A",
+    "year_start": 2016,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "redi-GO",
+    "variant": "T",
+    "year_start": 2016,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "redi-GO",
+    "variant": "T(O)",
+    "year_start": 2016,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "Sunny",
+    "variant": "XE",
+    "year_start": 2011,
+    "year_end": 2020,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "Sunny",
+    "variant": "XL",
+    "year_start": 2011,
+    "year_end": 2020,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Datsun",
+    "model": "Sunny",
+    "variant": "XV",
+    "year_start": 2011,
+    "year_end": 2020,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Astra",
+    "variant": "Club",
+    "year_start": 1996,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Astra",
+    "variant": "Club Automatic",
+    "year_start": 1996,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Astra",
+    "variant": "Sport",
+    "year_start": 1996,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Astra",
+    "variant": "Sport Automatic",
+    "year_start": 1996,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Corsa",
+    "variant": "1.4 GL",
+    "year_start": 2000,
+    "year_end": 2006,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Corsa",
+    "variant": "1.6 GL",
+    "year_start": 2000,
+    "year_end": 2006,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Corsa",
+    "variant": "1.6 GLS",
+    "year_start": 2000,
+    "year_end": 2006,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Vectra",
+    "variant": "1.8 GL",
+    "year_start": 2002,
+    "year_end": 2005,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Opel",
+    "model": "Vectra",
+    "variant": "2.0 D GLS",
+    "year_start": 2002,
+    "year_end": 2005,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1800 ISZ CNG",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic Nova Petrol",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1800 ISZ MPFI",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1800 ISZ MPFI PS",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1500 DSL",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1800 ISZ MPFI AC",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 1800 ISZ MPFI AC PS",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 2000 DSZ AC PS",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Classic 2000 DSZ AC",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Grand 1800 BSIV",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Grand 1800 ISZ MPFI",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Grand 1800 ISZ MPFI PW CL",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Grand 2000 DSZ",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Avigo 1800 ISZ MPFI AC",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Hindustan Motors",
+    "model": "Ambassador",
+    "variant": "Avigo 2000 DSZ",
+    "year_start": 2000,
+    "year_end": 2014,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Oyster Blue",
+      "Crystal White",
+      "Jet Black",
+      "Fire Brick Red",
+      "Ecru Beige",
+      "Lunar Silver"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio Petrol GX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio GX Beige Interior",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio Petrol GLX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio DX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio CRDi4 DX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio DX Beige Interior",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio CRDi4 LX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Premier",
+    "model": "Rio",
+    "variant": "Rio LX",
+    "year_start": 2009,
+    "year_end": 2015,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Red",
+      "White",
+      "Sterling Silver",
+      "Black"
+    ]
+  },
+  {
+    "make": "Daewoo",
+    "model": "Matiz",
+    "variant": "SE",
+    "year_start": 1998,
+    "year_end": 2002,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Matiz",
+    "variant": "SS",
+    "year_start": 1998,
+    "year_end": 2002,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Matiz",
+    "variant": "SL",
+    "year_start": 1998,
+    "year_end": 2002,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Matiz",
+    "variant": "SX",
+    "year_start": 1998,
+    "year_end": 2002,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Cielo",
+    "variant": "GSi",
+    "year_start": 1995,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Cielo",
+    "variant": "CXL",
+    "year_start": 1995,
+    "year_end": 2002,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Espero",
+    "variant": "GL",
+    "year_start": 1995,
+    "year_end": 1999,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Daewoo",
+    "model": "Espero",
+    "variant": "GSi",
+    "year_start": 1995,
+    "year_end": 1999,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "W",
+    "year_start": 2015,
+    "year_end": 2018,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "W2",
+    "year_start": 2015,
+    "year_end": 2018,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "W4",
+    "year_start": 2015,
+    "year_end": 2018,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "W6",
+    "year_start": 2015,
+    "year_end": 2018,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "Standard",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "Luxury",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "G4 Rexton",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Rexton",
+    "variant": "G4 Rexton 4x4",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Korando",
+    "variant": "Standard",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Tivoli",
+    "variant": "Standard",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "SsangYong",
+    "model": "Musso",
+    "variant": "Standard",
+    "year_start": 2018,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chrysler",
+    "model": "300",
+    "variant": "300C",
+    "year_start": 2006,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chrysler",
+    "model": "300",
+    "variant": "300C Hemi 5.7 V8",
+    "year_start": 2006,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chrysler",
+    "model": "Voyager",
+    "variant": "LE",
+    "year_start": 2001,
+    "year_end": 2007,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chrysler",
+    "model": "Voyager",
+    "variant": "Limited",
+    "year_start": 2001,
+    "year_end": 2007,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chrysler",
+    "model": "Crossfire",
+    "variant": "Standard",
+    "year_start": 2004,
+    "year_end": 2008,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "variant": "R/T",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "variant": "SRT Hellcat",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "variant": "SRT Scat Pack",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "variant": "R/T",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "variant": "Scat Pack",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "variant": "SRT Hellcat",
+    "year_start": 2015,
+    "year_end": 2023,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "variant": "SXT",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "variant": "GT",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "variant": "R/T",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Dodge",
+    "model": "Viper",
+    "variant": "SRT",
+    "year_start": 2013,
+    "year_end": 2017,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "variant": "Tradesman",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "variant": "Big Horn",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "variant": "Lone Star",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "variant": "Laramie",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "variant": "Limited",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "2500",
+    "variant": "Tradesman",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "2500",
+    "variant": "Big Horn",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "2500",
+    "variant": "Laramie",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "2500",
+    "variant": "Limited",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ram",
+    "model": "TRX",
+    "variant": "Launch Edition",
+    "year_start": 2021,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Navigator",
+    "variant": "Reserve",
+    "year_start": 2018,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Navigator",
+    "variant": "Black Label",
+    "year_start": 2018,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Aviator",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Aviator",
+    "variant": "Reserve",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Corsair",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Corsair",
+    "variant": "Reserve",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "variant": "Standard",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "variant": "Reserve",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "Escalade",
+    "variant": "Luxury",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "Escalade",
+    "variant": "Premium Luxury",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "Escalade",
+    "variant": "Sport",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "CT5",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "CT5",
+    "variant": "Premium Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "CT5",
+    "variant": "Sport",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "XT5",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "XT5",
+    "variant": "Premium Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "XT5",
+    "variant": "Sport",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "variant": "Luxury",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Yukon",
+    "variant": "SLE",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Yukon",
+    "variant": "SLT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Yukon",
+    "variant": "AT4",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Yukon",
+    "variant": "Denali",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra",
+    "variant": "Pro",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra",
+    "variant": "SLE",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra",
+    "variant": "SLT",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra",
+    "variant": "Denali",
+    "year_start": 2019,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GMC",
+    "model": "Hummer EV",
+    "variant": "Edition 1",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Envision",
+    "variant": "Preferred",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Envision",
+    "variant": "Essence",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Envision",
+    "variant": "Avenir",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Enclave",
+    "variant": "Preferred",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Enclave",
+    "variant": "Essence",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Buick",
+    "model": "Enclave",
+    "variant": "Avenir",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model Y",
+    "variant": "Premium",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model Y",
+    "variant": "L Premium",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3",
+    "variant": "Rear-Wheel Drive",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3",
+    "variant": "Long Range All-Wheel Drive",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3",
+    "variant": "Performance",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model S",
+    "variant": "Long Range",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model S",
+    "variant": "Plaid",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model X",
+    "variant": "Long Range",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tesla",
+    "model": "Model X",
+    "variant": "Plaid",
+    "year_start": 2017,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1S",
+    "variant": "Premium",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1S",
+    "variant": "Performance",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1S",
+    "variant": "Quad",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1T",
+    "variant": "Premium",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1T",
+    "variant": "Performance",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R1T",
+    "variant": "Quad",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R2",
+    "variant": "Standard",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rivian",
+    "model": "R3",
+    "variant": "Standard",
+    "year_start": 2026,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Air",
+    "variant": "Pure",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Air",
+    "variant": "Touring",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Air",
+    "variant": "Grand Touring",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Air",
+    "variant": "Sapphire",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Gravity",
+    "variant": "Pure",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Gravity",
+    "variant": "Touring",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lucid",
+    "model": "Gravity",
+    "variant": "Grand Touring",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 6",
+    "variant": "Earth",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "USB Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 6",
+    "variant": "Wind",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "USB Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 6",
+    "variant": "Wind Infinity",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "USB Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 7",
+    "variant": "Earth",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "Heads-Up Display",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 7",
+    "variant": "Wind",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "Heads-Up Display",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 7",
+    "variant": "Wind Infinity",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "Heads-Up Display",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 7",
+    "variant": "Sky",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "Heads-Up Display",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "VinFast",
+    "model": "VF 7",
+    "variant": "Sky Infinity",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Cruise Control",
+      "Rear Parking Camera",
+      "ADAS",
+      "Heads-Up Display",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 7",
+    "variant": "Comfort",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 7",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 8",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 8",
+    "variant": "Ultimate",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 4",
+    "variant": "Comfort",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chery",
+    "model": "Tiggo 4",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Coolray",
+    "variant": "Comfort",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Coolray",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Coolray",
+    "variant": "Sport",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Emgrand",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Emgrand",
+    "variant": "Luxury",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Okavango",
+    "variant": "Premium",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Geely",
+    "model": "Okavango",
+    "variant": "Flagship",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval H6",
+    "variant": "City",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval H6",
+    "variant": "Premium",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval H6",
+    "variant": "Supreme",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval Jolion",
+    "variant": "Premium",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval Jolion",
+    "variant": "Ultra",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval H9",
+    "variant": "Premium",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Haval H9",
+    "variant": "Ultra",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Tank 300",
+    "variant": "Premium",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "GWM (Great Wall Motors)",
+    "model": "Ora Good Cat",
+    "variant": "Pro+",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  }
+]

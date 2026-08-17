@@ -1,0 +1,2654 @@
+[
+  {
+    "make": "Porsche",
+    "model": "718 Cayman",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "718 Cayman",
+    "variant": "S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "718 Boxster",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "718 Boxster",
+    "variant": "S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "718 Boxster",
+    "variant": "GTS 4.0",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "variant": "Carrera",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "variant": "Carrera 4",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "variant": "Carrera S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "variant": "Carrera 4S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "variant": "Turbo S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Panamera",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Panamera",
+    "variant": "GTS",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Panamera",
+    "variant": "Turbo S E-Hybrid",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Macan",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Macan",
+    "variant": "S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Macan",
+    "variant": "GTS",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayenne",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayenne",
+    "variant": "S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayenne",
+    "variant": "GTS",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Taycan",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Porsche",
+    "model": "Taycan",
+    "variant": "4S",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper 3-Door",
+    "variant": "C",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper 3-Door",
+    "variant": "S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper 3-Door",
+    "variant": "John Cooper Works",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper 5-Door",
+    "variant": "C",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper 5-Door",
+    "variant": "S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Countryman",
+    "variant": "C",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Countryman",
+    "variant": "S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Countryman",
+    "variant": "John Cooper Works ALL4",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Countryman",
+    "variant": "All-Electric",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper Convertible",
+    "variant": "S",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MINI",
+    "model": "Cooper S Victory Edition",
+    "variant": "S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "Dynamic",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "Premium",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Seal",
+    "variant": "Premium",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Seal",
+    "variant": "Performance",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Sealion 7",
+    "variant": "Premium",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "eMAX 7",
+    "variant": "Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "eMAX 7",
+    "variant": "Superior",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BYD",
+    "model": "Dolphin",
+    "variant": "Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3",
+    "variant": "Live",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3",
+    "variant": "Feel",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3",
+    "variant": "Shine",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "ë-C3",
+    "variant": "You",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "ë-C3",
+    "variant": "Plus",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "ë-C3",
+    "variant": "Max",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3 Aircross",
+    "variant": "You",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3 Aircross",
+    "variant": "Plus",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C3 Aircross",
+    "variant": "Max",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "Basalt",
+    "variant": "You",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "Basalt",
+    "variant": "Plus",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "Basalt",
+    "variant": "Turbo Plus",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "Basalt",
+    "variant": "Turbo Max",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Citroën",
+    "model": "C5 Aircross",
+    "variant": "Shine",
+    "year_start": 2021,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "D-Max",
+    "variant": "Cab Chassis",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "V-Cross",
+    "variant": "V-Cross Hi-Lander",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "V-Cross",
+    "variant": "V-Cross Z",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "V-Cross",
+    "variant": "V-Cross Z Prestige",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "MU-X",
+    "variant": "2WD",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "MU-X",
+    "variant": "4WD",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Isuzu",
+    "model": "Hi-Lander",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2024,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Gurkha",
+    "variant": "3 Door",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Gurkha",
+    "variant": "5 Door",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Citiline",
+    "variant": "9+D",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Trax Cruiser",
+    "variant": "9+D",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Trax Cruiser",
+    "variant": "12+D",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Traveller",
+    "variant": "3050 Standard",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Traveller",
+    "variant": "3350 Standard",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Traveller",
+    "variant": "4020 Standard",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Force Motors",
+    "model": "Traveller",
+    "variant": "4020 CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "296 GTB",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "296 GTS",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "Roma",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "SF90 Stradale",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "SF90 Spider",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "convertible",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "812 Superfast",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ferrari",
+    "model": "Purosangue",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Huracán",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Huracán STO",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Revuelto",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Aventador",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Temerario",
+    "variant": "Standard",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Urus",
+    "variant": "Standard",
+    "year_start": 2018,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Ghost",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Phantom",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Cullinan",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Spectre",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bentley",
+    "model": "Continental GT",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bentley",
+    "model": "Flying Spur",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bentley",
+    "model": "Bentayga",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Heated Seats",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "Ghibli",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "Quattroporte",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "Levante",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "Grecale",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "GranTurismo",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maserati",
+    "model": "MC20",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DB11",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DB12",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "Vantage",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "Vanquish",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DBS Superleggera",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DBX",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "GT",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "Artura",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "570S",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "600LT",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "720S",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "750S",
+    "variant": "Standard",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "P1",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "McLaren",
+    "model": "Senna",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bugatti",
+    "model": "Veyron",
+    "variant": "Standard",
+    "year_start": 2005,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bugatti",
+    "model": "Chiron",
+    "variant": "Standard",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bugatti",
+    "model": "Divo",
+    "variant": "Standard",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bugatti",
+    "model": "Bolide",
+    "variant": "Standard",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Bugatti",
+    "model": "Tourbillon",
+    "variant": "Standard",
+    "year_start": 2016,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Elise",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Exige",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Evora",
+    "variant": "Standard",
+    "year_start": 2015,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Emira",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Eletre",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lotus",
+    "model": "Evija",
+    "variant": "Standard",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "coupe",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Peugeot",
+    "model": "3008",
+    "variant": "Active",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Peugeot",
+    "model": "3008",
+    "variant": "Allure",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Peugeot",
+    "model": "5008",
+    "variant": "Allure",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Peugeot",
+    "model": "208",
+    "variant": "GT",
+    "year_start": 2020,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Punto",
+    "variant": "Emotion",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Punto",
+    "variant": "Sport",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Punto",
+    "variant": "Abarth",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Linea",
+    "variant": "Active",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Linea",
+    "variant": "Dynamic",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Linea",
+    "variant": "Emotion",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Linea",
+    "variant": "T-Jet",
+    "year_start": 2009,
+    "year_end": 2018,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Fiat",
+    "model": "Palio",
+    "variant": "1.2 ELX",
+    "year_start": 2001,
+    "year_end": 2006,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beat",
+    "variant": "LS",
+    "year_start": 2010,
+    "year_end": 2017,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beat",
+    "variant": "LT",
+    "year_start": 2010,
+    "year_end": 2017,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beat",
+    "variant": "LTZ",
+    "year_start": 2010,
+    "year_end": 2017,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "variant": "LT",
+    "year_start": 2009,
+    "year_end": 2017,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "variant": "LTZ",
+    "year_start": 2009,
+    "year_end": 2017,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tavera",
+    "variant": "Neo 2",
+    "year_start": 2006,
+    "year_end": 2017,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [],
+    "colors": []
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "variant": "LT",
+    "year_start": 2008,
+    "year_end": 2017,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "EcoSport",
+    "variant": "Ambiente",
+    "year_start": 2017,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "EcoSport",
+    "variant": "Trend",
+    "year_start": 2017,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "EcoSport",
+    "variant": "Titanium",
+    "year_start": 2017,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "EcoSport",
+    "variant": "Titanium+",
+    "year_start": 2017,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Figo",
+    "variant": "Ambiente",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Figo",
+    "variant": "Trend",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Figo",
+    "variant": "Titanium",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Figo",
+    "variant": "Titanium+",
+    "year_start": 2015,
+    "year_end": 2020,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Freestyle",
+    "variant": "Trend",
+    "year_start": 2018,
+    "year_end": 2021,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Freestyle",
+    "variant": "Titanium",
+    "year_start": 2018,
+    "year_end": 2021,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Freestyle",
+    "variant": "Titanium+",
+    "year_start": 2018,
+    "year_end": 2021,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Endeavour",
+    "variant": "Titanium",
+    "year_start": 2016,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Endeavour",
+    "variant": "Sport",
+    "year_start": 2016,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Endeavour",
+    "variant": "Titanium+",
+    "year_start": 2016,
+    "year_end": 2021,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "variant": "GT",
+    "year_start": 2016,
+    "year_end": 2021,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Pajero Sport",
+    "variant": "GLX",
+    "year_start": 2012,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Pajero Sport",
+    "variant": "GLS",
+    "year_start": 2012,
+    "year_end": 2020,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Pajero",
+    "variant": "SFX",
+    "year_start": 2002,
+    "year_end": 2012,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "variant": "GLS",
+    "year_start": 2005,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "variant": "GT",
+    "year_start": 2005,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution (Evo)",
+    "variant": "GSR",
+    "year_start": 2008,
+    "year_end": 2012,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "variant": "2.4",
+    "year_start": 2008,
+    "year_end": 2013,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  }
+]

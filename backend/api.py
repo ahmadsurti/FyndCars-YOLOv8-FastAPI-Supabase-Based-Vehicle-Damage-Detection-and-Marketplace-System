@@ -9,22 +9,19 @@ Routers: /listings, /queue, /admin (mounted below)
 """
 
 import logging
+import os
 import time
 import uuid
 from datetime import datetime, timezone
 
 from dotenv import load_dotenv
-
-load_dotenv()
-
-import os
-
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 import assessment
 
+load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger("fynd(cars)_api")
 

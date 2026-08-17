@@ -23,8 +23,12 @@ def norm_severity(raw: Any) -> str:
 
 def norm_damage_type(raw: Any) -> str:
     s = str(raw or "").strip().lower()
-    if "scratch" in s: return "scratch"
-    if "dent" in s: return "dent"
-    if "paint" in s: return "paint_damage"
-    if "broken" in s or "part" in s: return "broken_part"
+    if "scratch" in s:
+        return "scratch"
+    if "dent" in s:
+        return "dent"
+    if "paint" in s:
+        return "paint_damage"
+    if "broken" in s or "part" in s:
+        return "broken_part"
     return s.replace(" ", "_") or "unknown"

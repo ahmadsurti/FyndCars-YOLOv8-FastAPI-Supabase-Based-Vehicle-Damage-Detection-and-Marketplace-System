@@ -1,0 +1,5731 @@
+[
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "LXi MT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "VXi MT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "VXi AMT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "VXi CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXi MT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXi AMT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXi+ MT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXi+ AMT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor",
+      "USB Charger"
+    ],
+    "colors": [
+      "Pearl Arctic White",
+      "Magma Grey",
+      "Splendid Silver",
+      "Sizzling Red",
+      "Luster Blue"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "LXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "VXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "VXi AMT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "ZXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "ZXi AMT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "LXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "VXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "VXi AMT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "ZXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "ZXi AMT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "ZXi+ MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "ZXi+ AMT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Poolside Blue",
+      "Nutmeg Brown",
+      "Silky Silver",
+      "Magma Grey",
+      "Superior White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "LXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "VXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "ZXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "ZXi AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "ZXi+ MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "ZXi+ AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Exuberant Blue",
+      "Magma Grey",
+      "Brave Khakhi",
+      "Splendid Silver",
+      "Pearl Arctic White"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Sigma MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Delta MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Delta AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Zeta MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Zeta AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Alpha MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Alpha AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Grandeur Grey",
+      "Chestnut Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Sigma MT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Delta MT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Delta+ AT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Zeta MT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Zeta AT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Alpha MT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Alpha AT",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Arctic White",
+      "Splendid Silver",
+      "Earthy Brown"
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "LXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "VXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "VXi CNG MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "ZXi MT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "ZXi+ AT",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Era",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Magna Executive",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Magna",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Sportz",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Sportz(O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Sportz(O) Knight",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Asta",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Asta (O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Asta(O) Knight",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Amazon Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night",
+      "Titan Grey",
+      "Abyss Black - Knight"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "E",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "EX",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "EX(O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "S(O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "SX",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "SX Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "King",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "King Knight",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Abyss Black",
+      "Atlas White",
+      "Titan Grey",
+      "Robust Emerald Pearl",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Verna",
+    "variant": "EX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Wireless Charger",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Abyss Black Pearl",
+      "Atlas White",
+      "Fiery Red",
+      "Tellurian Brown"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Verna",
+    "variant": "S",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Wireless Charger",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Abyss Black Pearl",
+      "Atlas White",
+      "Fiery Red",
+      "Tellurian Brown"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Verna",
+    "variant": "SX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Wireless Charger",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Abyss Black Pearl",
+      "Atlas White",
+      "Fiery Red",
+      "Tellurian Brown"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Verna",
+    "variant": "SX(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Wireless Charger",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Abyss Black Pearl",
+      "Atlas White",
+      "Fiery Red",
+      "Tellurian Brown"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Aura",
+    "variant": "E",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Rear AC Vents"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Typhoon Silver",
+      "Polar White",
+      "Starry Night",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Aura",
+    "variant": "S",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Rear AC Vents"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Typhoon Silver",
+      "Polar White",
+      "Starry Night",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Aura",
+    "variant": "SX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Rear AC Vents"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Typhoon Silver",
+      "Polar White",
+      "Starry Night",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Aura",
+    "variant": "SX(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Rear AC Vents"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Typhoon Silver",
+      "Polar White",
+      "Starry Night",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Aura",
+    "variant": "SX+",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Rear AC Vents"
+    ],
+    "colors": [
+      "Titan Grey",
+      "Typhoon Silver",
+      "Polar White",
+      "Starry Night",
+      "Fiery Red"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "EX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "S",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "S Smart",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "SX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "SX Smart",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "SX(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "SX(O) Connect",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Exter",
+    "variant": "SX Knight",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Ranger Khaki",
+      "Cosmic Gold",
+      "Titan Grey",
+      "Starry Night",
+      "Atlas White"
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 2",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 4",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 5",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 5+",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 6",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 7",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 8",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 10",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 5 Knight",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 8 Knight",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "HX 10 Knight",
+    "year_start": 2025,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Pure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Pure S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Creative",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Creative+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Fearless",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Fearless+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Smart+ CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Pure+ CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Creative+ CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Pristine White",
+      "Daytona Grey",
+      "Fearless Purple",
+      "Creative Ocean",
+      "Flame Red"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Pure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Adventure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Adventure S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Accomplished",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Accomplished+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Creative",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Atomic Orange",
+      "Calypso Red",
+      "Meteor Bronze",
+      "Pearl White"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Altroz",
+    "variant": "XE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Harbour Blue",
+      "High Street Gold",
+      "Downtown Red",
+      "Arcade Grey",
+      "Pure Silver"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Altroz",
+    "variant": "XM",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Harbour Blue",
+      "High Street Gold",
+      "Downtown Red",
+      "Arcade Grey",
+      "Pure Silver"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Altroz",
+    "variant": "XT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Harbour Blue",
+      "High Street Gold",
+      "Downtown Red",
+      "Arcade Grey",
+      "Pure Silver"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Altroz",
+    "variant": "XZ",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Harbour Blue",
+      "High Street Gold",
+      "Downtown Red",
+      "Arcade Grey",
+      "Pure Silver"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Altroz",
+    "variant": "XZ+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Harbour Blue",
+      "High Street Gold",
+      "Downtown Red",
+      "Arcade Grey",
+      "Pure Silver"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XM",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XZ+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XZA+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XM+ CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XT CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Tiago",
+    "variant": "XZ+ CNG",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "cng",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Flame Red",
+      "Pearlescent White",
+      "Daytona Grey",
+      "Midnight Plum"
+    ]
+  },
+  {
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Pure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Adventure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Fearless",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Fearless+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Pure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Adventure",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Fearless",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Fearless+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon EV",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon EV",
+    "variant": "Pure+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon EV",
+    "variant": "Fearless",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Tata",
+    "model": "Nexon EV",
+    "variant": "Empowered",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z2",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z4",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z8",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z8 L",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z6",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z8 L 4WD",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "MX1",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "MX2 Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "MX3",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "AX5",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "AX7 L",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "MX1",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "MX3",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "AX5",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "AX7",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "AX7 L",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "Thar Roxx",
+    "variant": "AX7 L 4WD",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "MX",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX3",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX5",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX7",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX7 L",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Wireless Charger"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Glanza",
+    "variant": "E",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Insta Blue",
+      "Gaming Grey",
+      "Sportin Red",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Glanza",
+    "variant": "S",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Insta Blue",
+      "Gaming Grey",
+      "Sportin Red",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Glanza",
+    "variant": "G",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Insta Blue",
+      "Gaming Grey",
+      "Sportin Red",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "E",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Midnight Black",
+      "Speedy Blue",
+      "Gaming Grey",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "S",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Midnight Black",
+      "Speedy Blue",
+      "Gaming Grey",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "G",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Midnight Black",
+      "Speedy Blue",
+      "Gaming Grey",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "V",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": [
+      "Cafe White",
+      "Midnight Black",
+      "Speedy Blue",
+      "Gaming Grey",
+      "Enticing Silver"
+    ]
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Hycross",
+    "variant": "GX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Hycross",
+    "variant": "VX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Hycross",
+    "variant": "ZX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Fortuner",
+    "variant": "4x2 MT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Fortuner",
+    "variant": "4x2 AT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Fortuner",
+    "variant": "4x4 MT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Fortuner",
+    "variant": "4x4 AT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Crysta",
+    "variant": "GX MT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Crysta",
+    "variant": "GX AT",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Crysta",
+    "variant": "VX 7 STR",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Toyota",
+    "model": "Innova Crysta",
+    "variant": "VX 8 STR",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTE",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTE(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTK",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTK(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "HTX(A)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "GTX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "GTX(A)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "X-Line",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "GTX(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "X-Line(O)",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Frost Blue",
+      "Morning Haze",
+      "Magma Red",
+      "Ivory Silver Gloss",
+      "Pewter Olive",
+      "Imperial Blue",
+      "Gravity Gray",
+      "Aurora Black Pearl",
+      "Glacier White Pearl"
+    ]
+  },
+  {
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "HTE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "HTK",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "HTX",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "HTX+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "GTX+",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Carens",
+    "variant": "Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Carens",
+    "variant": "Prestige",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Carens",
+    "variant": "Prestige Plus",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Kia",
+    "model": "Carens",
+    "variant": "Luxury",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Honda",
+    "model": "City",
+    "variant": "SV",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Radiant Red Metallic",
+      "Golden Brown Metallic",
+      "Platinum White Pearl",
+      "Meteoroid Grey Metallic",
+      "Obsidian Blue Pearl"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "City",
+    "variant": "V",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Radiant Red Metallic",
+      "Golden Brown Metallic",
+      "Platinum White Pearl",
+      "Meteoroid Grey Metallic",
+      "Obsidian Blue Pearl"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "City",
+    "variant": "VX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Radiant Red Metallic",
+      "Golden Brown Metallic",
+      "Platinum White Pearl",
+      "Meteoroid Grey Metallic",
+      "Obsidian Blue Pearl"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "City",
+    "variant": "ZX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Radiant Red Metallic",
+      "Golden Brown Metallic",
+      "Platinum White Pearl",
+      "Meteoroid Grey Metallic",
+      "Obsidian Blue Pearl"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "Amaze",
+    "variant": "E",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Honda",
+    "model": "Amaze",
+    "variant": "S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Honda",
+    "model": "Amaze",
+    "variant": "VX",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Honda",
+    "model": "Amaze",
+    "variant": "ZX",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Honda",
+    "model": "Elevate",
+    "variant": "SV",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Phoenix Orange Pearl",
+      "Platinum White Pearl",
+      "Obsidian Blue Pearl",
+      "Radiant Red Metallic",
+      "Lunar Silver Metallic"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "Elevate",
+    "variant": "V",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Phoenix Orange Pearl",
+      "Platinum White Pearl",
+      "Obsidian Blue Pearl",
+      "Radiant Red Metallic",
+      "Lunar Silver Metallic"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "Elevate",
+    "variant": "VX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Phoenix Orange Pearl",
+      "Platinum White Pearl",
+      "Obsidian Blue Pearl",
+      "Radiant Red Metallic",
+      "Lunar Silver Metallic"
+    ]
+  },
+  {
+    "make": "Honda",
+    "model": "Elevate",
+    "variant": "ZX",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Phoenix Orange Pearl",
+      "Platinum White Pearl",
+      "Obsidian Blue Pearl",
+      "Radiant Red Metallic",
+      "Lunar Silver Metallic"
+    ]
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXL",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXT (O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXZ",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXZ Dual Tone",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Triber",
+    "variant": "Authentic",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Triber",
+    "variant": "Evolution",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Triber",
+    "variant": "Techno",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Triber",
+    "variant": "Emotion",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear AC Vents",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kwid",
+    "variant": "RXE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kwid",
+    "variant": "RXL",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kwid",
+    "variant": "RXT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Renault",
+    "model": "Kwid",
+    "variant": "RXZ",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XL",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XV",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XV Premium",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XV Premium (O)",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Slavia",
+    "variant": "Classic",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Slavia",
+    "variant": "Signature",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Slavia",
+    "variant": "Prestige",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Slavia",
+    "variant": "Monte Carlo",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Kushaq",
+    "variant": "Classic",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Kushaq",
+    "variant": "Signature",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Škoda",
+    "model": "Kushaq",
+    "variant": "Prestige",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Virtus",
+    "variant": "Comfortline",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Virtus",
+    "variant": "Highline",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Virtus",
+    "variant": "Topline",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Virtus",
+    "variant": "GT Plus Sport",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Taigun",
+    "variant": "Comfortline",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Taigun",
+    "variant": "Highline",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Taigun",
+    "variant": "GT",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "variant": "Trendline",
+    "year_start": 2020,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "variant": "Comfortline",
+    "year_start": 2020,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "variant": "Highline Plus",
+    "year_start": 2020,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Polo",
+    "variant": "GT TSI",
+    "year_start": 2020,
+    "year_end": 2022,
+    "body_type": "hatchback",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Hector",
+    "variant": "Style",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Hector",
+    "variant": "Smart",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Hector",
+    "variant": "Smart Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Hector",
+    "variant": "Sharp Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Hector",
+    "variant": "Savvy Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "ZS EV",
+    "variant": "Excite",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "ZS EV",
+    "variant": "Exclusive",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "ZS EV",
+    "variant": "Essence",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Windsor EV",
+    "variant": "Excite Pro",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "MG Motor",
+    "model": "Windsor EV",
+    "variant": "Exclusive Plus",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "muv",
+    "fuel_type": "electric",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Rear AC Vents"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BMW",
+    "model": "3 Series",
+    "variant": "330i M Sport",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Cruise Control",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BMW",
+    "model": "3 Series",
+    "variant": "330Li M Sport",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Cruise Control",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BMW",
+    "model": "X1",
+    "variant": "sDrive18i M Sport",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "BMW",
+    "model": "X3",
+    "variant": "xDrive20d xLine",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "variant": "C 200",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "variant": "C 220d",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "variant": "C 300d",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "Rear Parking Sensor"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "variant": "E 200",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "variant": "200 4MATIC",
+    "year_start": 2023,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "variant": "Premium",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "variant": "Premium Plus",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "variant": "Technology",
+    "year_start": 2021,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Audi",
+    "model": "Q3",
+    "variant": "Premium Plus",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Audi",
+    "model": "Q5",
+    "variant": "Technology",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volvo",
+    "model": "XC60",
+    "variant": "B5 Ultimate",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control",
+      "Heated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volvo",
+    "model": "XC40",
+    "variant": "B4 Ultimate",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Volvo",
+    "model": "XC90",
+    "variant": "B6 Ultimate",
+    "year_start": 2022,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "ADAS",
+      "Cruise Control",
+      "Heated Seats",
+      "Captain Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jeep",
+    "model": "Compass",
+    "variant": "Sport",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jeep",
+    "model": "Compass",
+    "variant": "Longitude",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "manual",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jeep",
+    "model": "Compass",
+    "variant": "Black Shark",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jeep",
+    "model": "Compass",
+    "variant": "Model S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Rear Parking Sensor",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jeep",
+    "model": "Meridian",
+    "variant": "X",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "diesel",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "360 Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lexus",
+    "model": "ES",
+    "variant": "250 Exquisite",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lexus",
+    "model": "ES",
+    "variant": "250 Luxury",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "sedan",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Lexus",
+    "model": "NX",
+    "variant": "350h",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "hybrid",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Ventilated Seats"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Land Rover",
+    "model": "Defender",
+    "variant": "110 HSE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Land Rover",
+    "model": "Defender",
+    "variant": "110 X-Dynamic HSE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Land Rover",
+    "model": "Defender",
+    "variant": "130 X-Dynamic HSE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "360 Camera",
+      "Cruise Control",
+      "Rear Parking Camera"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Land Rover",
+    "model": "Range Rover Evoque",
+    "variant": "Dynamic SE",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jaguar",
+    "model": "F-Pace",
+    "variant": "R-Dynamic S",
+    "year_start": 2024,
+    "year_end": 2026,
+    "body_type": "suv",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  },
+  {
+    "make": "Jaguar",
+    "model": "F-Type",
+    "variant": "P450 R-Dynamic",
+    "year_start": 2024,
+    "year_end": 2024,
+    "body_type": "coupe",
+    "fuel_type": "petrol",
+    "transmission": "automatic",
+    "features": [
+      "Apple CarPlay",
+      "Rear Parking Camera",
+      "Cruise Control"
+    ],
+    "colors": []
+  }
+]

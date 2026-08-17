@@ -12,6 +12,7 @@ ultralytics>=8.2.0
 opencv-python-headless>=4.9.0
 numpy>=1.26.0
 pillow>=10.3.0
+docling>=2.66.0
 
 # Auth
 PyJWT>=2.8.0
