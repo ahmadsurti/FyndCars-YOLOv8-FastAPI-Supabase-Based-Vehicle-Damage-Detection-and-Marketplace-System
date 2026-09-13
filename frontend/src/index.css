@@ -1,0 +1,403 @@
+@import "tailwindcss";
+
+/* ── Custom Local Font: Labil Grotesk ── */
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-30Thin.otf') format('opentype');
+  font-weight: 100 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-40Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-50Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-55RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-60Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-70Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-75BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/labil-grotesk/KLabilGroteskTrial-80Black.otf') format('opentype');
+  font-weight: 800 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Custom theme — built from brand palette:
+ *   #175073  deep-navy   → dark-mode primary, chart-5, dark sidebar
+ *   #3786A6  steel-blue  → light-mode primary, ring, chart-1
+ *   #BFA521  gold        → accent, chart-2
+ *   #F29C6B  peach       → chart-3, warm secondary
+ *   #F2856D  coral       → destructive, chart-4
+ *
+ * Format: same token system as theme-merged.css (oklch throughout,
+ * Tailwind v4 @theme inline, full shadow scale, surface/code/selection).
+ */
+
+:root {
+  /* ── Core backgrounds & foregrounds ── */
+  --background:              oklch(0.9911 0.0000 0.0000);
+  --foreground:              oklch(0.2046 0.0000 0.0000);
+  --card:                    oklch(0.9911 0.0000 0.0000);
+  --card-foreground:         oklch(0.2046 0.0000 0.0000);
+  --popover:                 oklch(0.9911 0.0000 0.0000);
+  --popover-foreground:      oklch(0.4386 0.0000 0.0000);
+
+  /* ── Brand — steel-blue as primary ── */
+  --primary:                 oklch(0.5850 0.0905 228.1486); /* #3786A6 */
+  --primary-foreground:      oklch(0.9850 0.0050 228.0000); /* near-white, blue-tinted */
+
+  /* ── Secondary / muted / accent ── */
+  --secondary:               oklch(0.9350 0.0407 228.1486); /* light steel-blue tint */
+  --secondary-foreground:    oklch(0.2626 0.0738 240.4758); /* deep-navy text */
+  --muted:                   oklch(0.9461 0.0000 0.0000);
+  --muted-foreground:        oklch(0.5452 0.0000 0.0000);
+  --accent:                  oklch(0.9600 0.0634 96.9341);  /* light gold tint surface */
+  --accent-foreground:       oklch(0.5739 0.1268 96.9341);  /* darker gold for text on accent */
+
+  /* ── Destructive — coral ── */
+  --destructive:             oklch(0.7313 0.1385 33.4750);  /* #F2856D */
+  --destructive-foreground:  oklch(0.9800 0.0100 33.0000);  /* near-white warm */
+
+  /* ── Borders & inputs ── */
+  --border:                  oklch(0.9037 0.0000 0.0000);
+  --input:                   oklch(0.9731 0.0000 0.0000);
+  --ring:                    oklch(0.5850 0.0905 228.1486);  /* steel-blue */
+
+  /* ── Sidebar ── */
+  --sidebar:                 oklch(0.9650 0.0200 228.1486);  /* very light steel-blue wash */
+  --sidebar-foreground:      oklch(0.4126 0.0820 240.4758);  /* deep-navy mid */
+  --sidebar-primary:         oklch(0.5850 0.0905 228.1486);  /* steel-blue */
+  --sidebar-primary-foreground: oklch(0.9850 0.0050 228.0000);
+  --sidebar-accent:          oklch(0.9350 0.0407 228.1486);
+  --sidebar-accent-foreground: oklch(0.4126 0.0820 240.4758);
+  --sidebar-border:          oklch(0.8800 0.0200 228.1486);
+  --sidebar-ring:            oklch(0.5850 0.0905 228.1486);
+
+  /* ── Surface & code ── */
+  --surface:                 oklch(1.0000 0.0000 0.0000);
+  --surface-foreground:      oklch(0.2046 0.0000 0.0000);
+  --code:                    oklch(0.9700 0.0100 228.0000);  /* faint blue tint on code bg */
+  --code-foreground:         oklch(0.2626 0.0738 240.4758);  /* deep-navy */
+  --code-highlight:          oklch(0.9350 0.0407 228.1486);
+  --code-number:             oklch(0.7239 0.1409 96.9341);   /* gold for line numbers */
+
+  /* ── Selection ── */
+  --selection:               oklch(0.5850 0.0905 228.1486);  /* steel-blue */
+  --selection-foreground:    oklch(0.9911 0.0000 0.0000);
+
+  /* ── Charts — all 5 palette colors in order ── */
+  --chart-1:                 oklch(0.5850 0.0905 228.1486);  /* steel-blue  #3786A6 */
+  --chart-2:                 oklch(0.7239 0.1409 96.9341);   /* gold        #BFA521 */
+  --chart-3:                 oklch(0.7691 0.1215 49.8541);   /* peach       #F29C6B */
+  --chart-4:                 oklch(0.7313 0.1385 33.4750);   /* coral       #F2856D */
+  --chart-5:                 oklch(0.4126 0.0820 240.4758);  /* deep-navy   #175073 */
+
+  /* ── Typography ── */
+  --font-sans:               Outfit, ui-sans-serif, system-ui, sans-serif;
+  --font-mono:               JetBrains Mono, ui-monospace, SFMono-Regular, monospace;
+  --font-serif:              Georgia, Cambria, "Times New Roman", serif;
+  --font-labil:              "Labil Grotesk", sans-serif;
+  --font-comfortaa:          "Comfortaa", sans-serif;
+  --font-instrument:         "Instrument Serif", serif;
+  --letter-spacing:          0.025em;
+  --tracking-normal:         0.025em;
+
+  /* ── Shape ── */
+  --radius:                  0.5rem;
+  --radius-sm:               0.375rem;
+  --radius-md:               0.5rem;
+  --radius-lg:               0.750rem;
+  --radius-xl:               1.000rem;
+
+  /* ── Spacing ── */
+  --spacing:                 0.25rem;
+
+  /* ── Shadows ── */
+  --shadow-color:            oklch(0.4126 0.0820 240.4758);  /* navy-tinted shadows */
+  --shadow-opacity:          0.12;
+  --shadow-x:                0px;
+  --shadow-y:                1px;
+  --shadow-blur:             3px;
+  --shadow-spread:           0px;
+
+  --shadow-2xs:  0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.07);
+  --shadow-xs:   0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.07);
+  --shadow-sm:   0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.12),
+                 0px 1px 2px -1px oklch(0.4126 0.0820 240.4758 / 0.12);
+  --shadow:      0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.12),
+                 0px 1px 2px -1px oklch(0.4126 0.0820 240.4758 / 0.12);
+  --shadow-md:   0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.12),
+                 0px 2px 4px -1px oklch(0.4126 0.0820 240.4758 / 0.12);
+  --shadow-lg:   0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.12),
+                 0px 4px 6px -1px oklch(0.4126 0.0820 240.4758 / 0.12);
+  --shadow-xl:   0px 1px 3px 0px oklch(0.4126 0.0820 240.4758 / 0.12),
+                 0px 8px 10px -1px oklch(0.4126 0.0820 240.4758 / 0.12);
+  --shadow-2xl:  0px 2px 8px 0px oklch(0.4126 0.0820 240.4758 / 0.22);
+
+  /* ── GPU Motion & Compositor Tokens ── */
+  --css-compositor:          transform, opacity, filter, background-position;
+  --ease-smooth:             cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce:             cubic-bezier(0.34, 1.56, 0.64, 1);
+  --anim-duration:           850ms;
+}
+
+/* ─────────────────────────────────────────────────────── */
+/* DARK MODE                                               */
+/* ─────────────────────────────────────────────────────── */
+
+.dark {
+  /* ── Core ── */
+  --background:              oklch(0.1600 0.0200 240.0000);  /* very dark navy */
+  --foreground:              oklch(0.9200 0.0150 228.0000);  /* cool off-white */
+  --card:                    oklch(0.2000 0.0250 240.0000);
+  --card-foreground:         oklch(0.9200 0.0150 228.0000);
+  --popover:                 oklch(0.2400 0.0220 240.0000);
+  --popover-foreground:      oklch(0.7500 0.0200 228.0000);
+
+  /* ── Brand — deep-navy becomes the primary surface, steel-blue is the action color ── */
+  --primary:                 oklch(0.5850 0.0905 228.1486);  /* steel-blue still drives actions */
+  --primary-foreground:      oklch(0.9850 0.0050 228.0000);
+
+  /* ── Secondary / muted / accent ── */
+  --secondary:               oklch(0.2600 0.0350 240.0000);
+  --secondary-foreground:    oklch(0.9200 0.0150 228.0000);
+  --muted:                   oklch(0.2200 0.0250 240.0000);
+  --muted-foreground:        oklch(0.6500 0.0200 228.0000);
+  --accent:                  oklch(0.3200 0.0550 96.9341);   /* dark gold-tinted surface */
+  --accent-foreground:       oklch(0.7239 0.1409 96.9341);   /* gold text on dark accent */
+
+  /* ── Destructive ── */
+  --destructive:             oklch(0.5813 0.1247 33.4750);   /* darker coral */
+  --destructive-foreground:  oklch(0.9600 0.0200 33.0000);
+
+  /* ── Borders & inputs ── */
+  --border:                  oklch(0.2900 0.0300 240.0000);
+  --input:                   oklch(0.2400 0.0220 240.0000);
+  --ring:                    oklch(0.7626 0.0369 240.4758);   /* lightened navy for rings on dark */
+
+  /* ── Sidebar ── */
+  --sidebar:                 oklch(0.1400 0.0250 240.0000);  /* deepest navy */
+  --sidebar-foreground:      oklch(0.6500 0.0200 228.0000);
+  --sidebar-primary:         oklch(0.5850 0.0905 228.1486);
+  --sidebar-primary-foreground: oklch(0.9850 0.0050 228.0000);
+  --sidebar-accent:          oklch(0.2200 0.0300 240.0000);
+  --sidebar-accent-foreground: oklch(0.9200 0.0150 228.0000);
+  --sidebar-border:          oklch(0.2400 0.0250 240.0000);
+  --sidebar-ring:            oklch(0.5850 0.0905 228.1486);
+
+  /* ── Surface & code ── */
+  --surface:                 oklch(0.1300 0.0200 240.0000);
+  --surface-foreground:      oklch(0.9200 0.0150 228.0000);
+  --code:                    oklch(0.1300 0.0200 240.0000);
+  --code-foreground:         oklch(0.9200 0.0150 228.0000);
+  --code-highlight:          oklch(0.1100 0.0200 240.0000);
+  --code-number:             oklch(0.7239 0.1409 96.9341);   /* gold */
+
+  /* ── Selection ── */
+  --selection:               oklch(0.4350 0.0814 228.1486);  /* dark steel-blue */
+  --selection-foreground:    oklch(0.9850 0.0050 228.0000);
+
+  /* ── Charts — same colors, they pop well on dark ── */
+  --chart-1:                 oklch(0.5850 0.0905 228.1486);  /* steel-blue */
+  --chart-2:                 oklch(0.7239 0.1409 96.9341);   /* gold */
+  --chart-3:                 oklch(0.7691 0.1215 49.8541);   /* peach */
+  --chart-4:                 oklch(0.7313 0.1385 33.4750);   /* coral */
+  --chart-5:                 oklch(0.7626 0.0369 240.4758);  /* light navy/periwinkle */
+
+  /* ── Typography ── */
+  --font-sans:               Outfit, ui-sans-serif, system-ui, sans-serif;
+  --font-mono:               JetBrains Mono, ui-monospace, SFMono-Regular, monospace;
+  --font-serif:              Georgia, Cambria, "Times New Roman", serif;
+  --font-labil:              "Labil Grotesk", sans-serif;
+  --font-comfortaa:          "Comfortaa", sans-serif;
+  --font-instrument:         "Instrument Serif", serif;
+  --letter-spacing:          0.025em;
+  --tracking-normal:         0.025em;
+
+  /* ── Shape ── */
+  --radius:                  0.5rem;
+  --radius-sm:               0.375rem;
+  --radius-md:               0.5rem;
+  --radius-lg:               0.750rem;
+  --radius-xl:               1.000rem;
+
+  /* ── Spacing ── */
+  --spacing:                 0.25rem;
+
+  /* ── Shadows — deeper on dark bg ── */
+  --shadow-color:            oklch(0.0800 0.0200 240.0000);
+  --shadow-opacity:          0.35;
+  --shadow-x:                0px;
+  --shadow-y:                1px;
+  --shadow-blur:             3px;
+  --shadow-spread:           0px;
+
+  --shadow-2xs:  0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.20);
+  --shadow-xs:   0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.20);
+  --shadow-sm:   0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.35),
+                 0px 1px 2px -1px oklch(0.0800 0.0200 240.0000 / 0.35);
+  --shadow:      0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.35),
+                 0px 1px 2px -1px oklch(0.0800 0.0200 240.0000 / 0.35);
+  --shadow-md:   0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.35),
+                 0px 2px 4px -1px oklch(0.0800 0.0200 240.0000 / 0.35);
+  --shadow-lg:   0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.35),
+                 0px 4px 6px -1px oklch(0.0800 0.0200 240.0000 / 0.35);
+  --shadow-xl:   0px 1px 3px 0px oklch(0.0800 0.0200 240.0000 / 0.35),
+                 0px 8px 10px -1px oklch(0.0800 0.0200 240.0000 / 0.35);
+  --shadow-2xl:  0px 2px 8px 0px oklch(0.0800 0.0200 240.0000 / 0.55);
+}
+
+/* ─────────────────────────────────────────────────────── */
+/* @theme inline — Tailwind v4 color + token bridge        */
+/* ─────────────────────────────────────────────────────── */
+
+@theme inline {
+  /* ── Fonts ── */
+  --font-sans:         var(--font-sans);
+  --font-mono:         var(--font-mono);
+  --font-serif:        var(--font-serif);
+  --font-labil:        var(--font-labil);
+  --font-comfortaa:    var(--font-comfortaa);
+  --font-instrument:   var(--font-instrument);
+
+  /* ── Radii ── */
+  --radius-sm:   calc(var(--radius) - 4px);
+  --radius-md:   calc(var(--radius) - 2px);
+  --radius-lg:   var(--radius);
+  --radius-xl:   calc(var(--radius) + 4px);
+
+  /* ── Colors ── */
+  --color-background:              var(--background);
+  --color-foreground:              var(--foreground);
+  --color-card:                    var(--card);
+  --color-card-foreground:         var(--card-foreground);
+  --color-popover:                 var(--popover);
+  --color-popover-foreground:      var(--popover-foreground);
+  --color-primary:                 var(--primary);
+  --color-primary-foreground:      var(--primary-foreground);
+  --color-secondary:               var(--secondary);
+  --color-secondary-foreground:    var(--secondary-foreground);
+  --color-muted:                   var(--muted);
+  --color-muted-foreground:        var(--muted-foreground);
+  --color-accent:                  var(--accent);
+  --color-accent-foreground:       var(--accent-foreground);
+  --color-destructive:             var(--destructive);
+  --color-destructive-foreground:  var(--destructive-foreground);
+  --color-border:                  var(--border);
+  --color-input:                   var(--input);
+  --color-ring:                    var(--ring);
+
+  --color-chart-1:                 var(--chart-1);
+  --color-chart-2:                 var(--chart-2);
+  --color-chart-3:                 var(--chart-3);
+  --color-chart-4:                 var(--chart-4);
+  --color-chart-5:                 var(--chart-5);
+
+  --color-sidebar:                 var(--sidebar);
+  --color-sidebar-foreground:      var(--sidebar-foreground);
+  --color-sidebar-primary:         var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent:          var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border:          var(--sidebar-border);
+  --color-sidebar-ring:            var(--sidebar-ring);
+
+  --color-surface:                 var(--surface);
+  --color-surface-foreground:      var(--surface-foreground);
+  --color-code:                    var(--code);
+  --color-code-foreground:         var(--code-foreground);
+  --color-code-highlight:          var(--code-highlight);
+  --color-code-number:             var(--code-number);
+  --color-selection:               var(--selection);
+  --color-selection-foreground:    var(--selection-foreground);
+
+  /* ── Shadows ── */
+  --shadow-2xs:  var(--shadow-2xs);
+  --shadow-xs:   var(--shadow-xs);
+  --shadow-sm:   var(--shadow-sm);
+  --shadow:      var(--shadow);
+  --shadow-md:   var(--shadow-md);
+  --shadow-lg:   var(--shadow-lg);
+  --shadow-xl:   var(--shadow-xl);
+  --shadow-2xl:  var(--shadow-2xl);
+}
+
+/* ── Typography Utility Classes ── */
+.font-labil {
+  font-family: var(--font-labil);
+}
+
+.font-comfortaa {
+  font-family: var(--font-comfortaa);
+  font-optical-sizing: auto;
+}
+
+.font-instrument {
+  font-family: var(--font-instrument);
+}
+
+.font-instrument-italic {
+  font-family: var(--font-instrument);
+  font-style: italic;
+}
+
+/* ── GPU Motion Keyframes ── */
+@keyframes navEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-navbar {
+  will-change: transform, opacity;
+  animation: navEntrance var(--anim-duration) var(--ease-smooth) forwards;
+}

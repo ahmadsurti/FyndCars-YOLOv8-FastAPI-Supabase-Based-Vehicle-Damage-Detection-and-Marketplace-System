@@ -5,12 +5,14 @@ Routes for messages, saved_listings, listing_views, seller_reviews, search_alert
 
 import hashlib
 import logging
+import os
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request, status
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+
 
 from db import supabase
 from middleware.auth import get_current_user, get_optional_user
@@ -36,7 +38,7 @@ PLAN_TYPES = ("seller_unlimited_listings", "pro_buyer_alerts", "ai_inspection_bu
 class MessageCreate(BaseModel):
     listing_id: str
     body: str = Field(min_length=1, max_length=4000)
-    receiver_id: Optional[str] = Field(None, description="Defaults to the listing's seller")
+    receiver_id: str | None = Field(None, description="Defaults to the listing's seller")
 
 
 class SavedListingCreate(BaseModel):
@@ -45,34 +47,35 @@ class SavedListingCreate(BaseModel):
 
 class ReviewCreate(BaseModel):
     rating: int = Field(ge=1, le=5)
-    comment: Optional[str] = Field(None, max_length=2000)
+    comment: str | None = Field(None, max_length=2000)
 
 
 class SearchAlertBase(BaseModel):
-    make: Optional[str] = None
-    model: Optional[str] = None
-    max_price: Optional[float] = Field(None, gt=0)
-    min_year: Optional[int] = Field(None, ge=1900, le=2100)
-    city: Optional[str] = None
+    make: str | None = None
+    model: str | None = None
+    max_price: float | None = Field(None, gt=0, le=100_000_000)
+    min_year: int | None = Field(None, ge=1900, le=2100)
+    city: str | None = None
 
 
 class SearchAlertUpdate(SearchAlertBase):
-    is_active: Optional[bool] = None
+    is_active: bool | None = None
 
 
 class SubscriptionCreate(BaseModel):
     plan_type: str
-    amount_paid: float = Field(gt=0)
+    amount_paid: float = Field(gt=0, le=10_000_000)
     currency: str = "INR"
-    valid_until: Optional[str] = Field(None, description="ISO datetime")
+    valid_until: str | None = Field(None, description="ISO datetime")
 
 
 class SubscriptionConfirm(BaseModel):
     razorpay_order_id: str = Field(min_length=4)
     razorpay_payment_id: str = Field(min_length=4)
+    razorpay_signature: str | None = None
 
 
-def _get_listing(listing_id: str) -> Optional[dict]:
+def _get_listing(listing_id: str) -> dict | None:
     res = _db().table("listings").select("id, seller_id, status, buyer_id").eq("id", listing_id).limit(1).execute()
     return res.data[0] if res.data else None
 
@@ -110,13 +113,19 @@ async def list_messages(
 ):
     """Conversation history for logged-in user."""
     db = _db()
-    sent = db.table("messages").select("*").eq("sender_id", user["id"]).execute()
-    received = db.table("messages").select("*").eq("receiver_id", user["id"]).execute()
-    rows = {m["id"]: m for m in (sent.data or []) + (received.data or [])}.values()
+    sent_q = db.table("messages").select("*").eq("sender_id", user["id"])
+    recv_q = db.table("messages").select("*").eq("receiver_id", user["id"])
     if listing_id:
-        rows = [m for m in rows if m.get("listing_id") == listing_id]
+        sent_q = sent_q.eq("listing_id", listing_id)
+        recv_q = recv_q.eq("listing_id", listing_id)
     if unread_only:
-        rows = [m for m in rows if m.get("receiver_id") == user["id"] and not m.get("read")]
+        recv_q = recv_q.eq("read", False)
+        sent = []
+    else:
+        sent = sent_q.execute().data or []
+    received = recv_q.execute().data or []
+
+    rows = {m["id"]: m for m in sent + received}.values()
     sorted_rows = sorted(rows, key=lambda m: m.get("created_at") or "")
     return sorted_rows[offset:offset + limit]
 
@@ -124,8 +133,8 @@ async def list_messages(
 @messages_router.get("/unread-count")
 async def unread_message_count(user: dict = Depends(get_current_user)):
     """Unread message count badge."""
-    res = _db().table("messages").select("id").eq("receiver_id", user["id"]).eq("read", False).execute()
-    return {"unread_count": len(res.data or [])}
+    res = _db().table("messages").select("id", count="exact").eq("receiver_id", user["id"]).eq("read", False).execute()
+    return {"unread_count": res.count if res.count is not None else len(res.data or [])}
 
 
 @messages_router.patch("/{message_id}/read")
@@ -208,13 +217,26 @@ async def listing_view_stats(listing_id: str, user: dict = Depends(get_current_u
     if listing["seller_id"] != user["id"] and user["role"] != "admin":
         raise HTTPException(403, "Only the listing owner or an admin can view analytics")
     rows = _db().table("listing_views").select("*").eq("listing_id", listing_id).order("viewed_at", desc=True).execute().data or []
-    week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+    week_ago_dt = datetime.now(timezone.utc) - timedelta(days=7)
+    
+    def _is_within_week(v):
+        vat = v.get("viewed_at")
+        if not vat:
+            return False
+        try:
+            dt = datetime.fromisoformat(vat.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt >= week_ago_dt
+        except Exception:
+            return str(vat) >= week_ago_dt.isoformat()
+
     unique = {(v.get("viewer_id") or v.get("ip_hash")) for v in rows}
     return {
         "listing_id": listing_id,
         "total_views": len(rows),
         "unique_viewers": len(unique),
-        "views_last_7_days": sum(1 for v in rows if (v.get("viewed_at") or "") >= week_ago),
+        "views_last_7_days": sum(1 for v in rows if _is_within_week(v)),
         "recent": rows[:10],
     }
 
@@ -255,14 +277,17 @@ async def review_sold_listing(listing_id: str, payload: ReviewCreate, user: dict
 async def get_seller_reviews(seller_id: str, limit: int = Query(50, ge=1, le=100), offset: int = Query(0, ge=0)):
     """Public seller trust profile."""
     db = _db()
-    total = db.table("seller_reviews").select("id", count="exact").eq("seller_id", seller_id).execute()
+    all_revs = db.table("seller_reviews").select("rating").eq("seller_id", seller_id).execute()
+    all_rows = all_revs.data or []
+    all_ratings = [r["rating"] for r in all_rows if "rating" in r]
+    avg_rating = round(sum(all_ratings) / len(all_ratings), 2) if all_ratings else None
+
     reviews = db.table("seller_reviews").select("*").eq("seller_id", seller_id).order("created_at", desc=True).range(offset, offset + limit - 1).execute()
     rows = reviews.data or []
-    ratings = [r["rating"] for r in rows]
     return {
         "seller_id": seller_id,
-        "total_reviews": total.count if total.count is not None else len(rows),
-        "average_rating": round(sum(ratings) / len(ratings), 2) if ratings else None,
+        "total_reviews": len(all_rows),
+        "average_rating": avg_rating,
         "reviews": rows,
     }
 
@@ -272,7 +297,9 @@ async def get_seller_reviews(seller_id: str, limit: int = Query(50, ge=1, le=100
 # ---------------------------------------------------------------------------
 
 def _alert_matches_query(alert: dict):
-    q = _db().table("listings").select("*").eq("status", "active").order("created_at", desc=True)
+    q = _db().table("listings").select(
+        "id, title, make, model, year, price, city, status, fuel_type, transmission, mileage_km, created_at"
+    ).eq("status", "active").order("created_at", desc=True)
     if alert.get("make"):
         q = q.ilike("make", alert["make"])
     if alert.get("model"):
@@ -375,6 +402,23 @@ async def confirm_subscription(subscription_id: str, payload: SubscriptionConfir
         raise HTTPException(403, "Not your subscription")
     if sub["status"] != "pending":
         raise HTTPException(400, f"Subscription is already '{sub['status']}'")
+
+    razorpay_secret = os.getenv("RAZORPAY_KEY_SECRET", "")
+    if os.getenv("FYND_ENV", "").lower() == "production" and not razorpay_secret:
+        raise HTTPException(500, "Payment verification gateway not configured in production")
+
+    if razorpay_secret and payload.razorpay_signature:
+        import hmac
+        expected_sig = hmac.new(
+            razorpay_secret.encode(),
+            f"{payload.razorpay_order_id}|{payload.razorpay_payment_id}".encode(),
+            hashlib.sha256
+        ).hexdigest()
+        if not hmac.compare_digest(expected_sig, payload.razorpay_signature):
+            raise HTTPException(400, "Invalid payment signature")
+    elif razorpay_secret and not payload.razorpay_signature:
+        raise HTTPException(400, "Payment signature required")
+
     updates = {"status": "active", "razorpay_order_id": payload.razorpay_order_id, "razorpay_payment_id": payload.razorpay_payment_id}
     updated = db.table("user_subscriptions").update(updates).eq("id", subscription_id).execute()
     return updated.data[0] if updated.data else {"id": subscription_id, **updates}

@@ -22,3 +22,4 @@ def get_db() -> Client:
         raise HTTPException(503, "Database client unavailable")
     return supabase
 
+

@@ -111,7 +111,8 @@ class FakeQuery:
             start, end = self._window
             rows = rows[start:end + 1]
         if self._single:
-            return FakeResult(rows[:1] or None)
+            # #17: .single() returns dict or None, not a 1-item list
+            return FakeResult(rows[0] if rows else None)
         return FakeResult(rows, count=len(rows) if self._count_flag == "exact" else None)
 
 
@@ -152,7 +153,8 @@ def install_db(monkeypatch):
         import routes.admin
         import routes.listings
         import routes.marketplace
-        for module in (routes.listings, routes.admin, routes.marketplace):
+        import routes.queue
+        for module in (routes.listings, routes.admin, routes.marketplace, routes.queue):
             monkeypatch.setattr(module, "supabase", fake)
         return fake
     return _install

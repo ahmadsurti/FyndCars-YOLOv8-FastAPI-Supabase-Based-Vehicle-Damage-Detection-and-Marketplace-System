@@ -1,11 +1,13 @@
 # FyndCars: Multimodal AI Vehicle Assessment & Verified Marketplace
 
-![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.111%2B-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12%2B%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-v2-E92063?style=flat-square&logo=pydantic&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FE5F50?style=flat-square)
-![Docling](https://img.shields.io/badge/Docling-Document%20Parsing-8A2BE2?style=flat-square)
+![Docling](https://img.shields.io/badge/Docling-Document%20Intelligence-8A2BE2?style=flat-square)
 ![OpenRouter](https://img.shields.io/badge/VLM-Gemma%204%2031B-4285F4?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-102%20Passed%20%7C%20100%25-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)
 
 > **Autonomous Intake • Multimodal AI Verification • Deterministic Policy Triage • Verified Automotive Marketplace**
@@ -17,13 +19,14 @@
 ## 📑 Table of Contents
 
 1. [System Architecture & Intake Pipeline](#-system-architecture--intake-pipeline)
-2. [Core Features](#-core-features)
-3. [Database Architecture & Migrations](#-database-architecture--migrations)
-4. [Prerequisites & Installation](#-prerequisites--installation)
-5. [Configuration & Environment Variables](#-configuration--environment-variables)
-6. [API Reference](#-api-reference)
-7. [Automated Testing & Performance](#-automated-testing--performance)
-8. [License & Notice](#-license--notice)
+2. [State-of-the-Art Optimizations & Engineering](#-state-of-the-art-optimizations--engineering)
+3. [Core Features](#-core-features)
+4. [Database Architecture & Migrations](#-database-architecture--migrations)
+5. [Prerequisites & Installation](#-prerequisites--installation)
+6. [Configuration & Environment Variables](#-configuration--environment-variables)
+7. [API Reference](#-api-reference)
+8. [Automated Testing & Performance](#-automated-testing--performance)
+9. [License & Notice](#-license--notice)
 
 ---
 
@@ -36,8 +39,8 @@ FyndCars implements a layered, fail-fast intake architecture that prevents corru
                      │
                      ▼
   ┌─────────────────────────────────────────┐
-  │ Gate 0: Pre-Upload Quality Gate         │ ──(Fails Laplacian blur < 100.0 or
-  │ (Laplacian Variance + Luminance Check)  │    Luminance < 40 / > 220) ──► 400 Bad Request
+  │ Gate 0: Pre-Upload Quality Gate         │ ──(Fails Luminance < 40 / > 220 or
+  │ (Luminance Diagnostic + Laplacian Blur) │    Laplacian variance < 100.0) ──► 400 Bad Request
   └─────────────────────────────────────────┘
                      │ (Passes ~2ms CPU check)
                      ▼
@@ -45,13 +48,13 @@ FyndCars implements a layered, fail-fast intake architecture that prevents corru
   │ Gate 1: Docling Document Intelligence   │ ──(Extracts: Make, Model, Variant,
   │ (In-Memory Stream + Regex/LLM Fallback) │    VIN, Plate No, Fuel, Mfg Year)
   └─────────────────────────────────────────┘
-                     │
+                     │ (Non-blocking async worker)
                      ▼
   ┌─────────────────────────────────────────┐
   │ Gate 2: Multimodal VLM Verification     │ ──(One-shot Gemma 4 31B:
   │ (OpenRouter Gemma 4 31B Vision)         │    360° coverage, Odometer OCR, Plate Match)
   └─────────────────────────────────────────┘
-                     │
+                     │ (Non-blocking async worker)
                      ▼
   ┌─────────────────────────────────────────┐
   │ Gate 3: YOLOv8 Computer Vision          │ ──(10 Damage Classes: Scratches,
@@ -65,17 +68,18 @@ FyndCars implements a layered, fail-fast intake architecture that prevents corru
   └─────────────────────────────────────────┘
                      │
                      ▼
-[Draft Listing Created in Supabase with RLS & Auto-filled Specs]
+[Draft Listing Created in Supabase with RLS & Auto-filled Telemetry]
 ```
 
-### 1. Gate 0: Ultra-Fast OpenCV Quality Gate (`quality_gate.py`)
+### 1. Gate 0: Pixel Quality Gate (`quality_gate.py`)
+- **Luminance Check:** Analyzes average grayscale luminance first. Accurately identifies and flags underexposed (`< 40`) or overexposed (`> 220`) imagery.
 - **Blur Detection:** Calculates the variance of the Laplacian operator on all uploaded photos. Rejects blurry imagery (`variance < 100.0`).
-- **Lighting Check:** Analyzes average grayscale luminance. Flags underexposed (`< 40`) or overexposed (`> 220`) imagery.
-- **Cost:** ~$0.00, executes in ~2ms on CPU before any cloud or LLM API calls are dispatched.
+- **Cost & Speed:** ~$0.00, executes in ~2ms on CPU before any cloud or LLM API calls are dispatched.
 
 ### 2. Gate 1: Docling Document Parsing (`agentic/rc_extractor.py`)
 - Ingests Registration Certificate (RC) documents directly from memory buffers using Docling's `DocumentStream`.
 - Employs pre-compiled regular expressions for Indian RTO formats (Registration Numbers, Chassis/VIN numbers, Engine Numbers, Fuel Types, Years).
+- Automatic title case and uppercase normalization matching OEM catalog indexes.
 - Seamless fallback to OpenRouter LLM (`google/gemma-4-31b-it:free`) for non-standard or distressed document layouts.
 
 ### 3. Gate 2: Gemma 4 31B Multimodal VLM Verification (`agentic/vlm_verifier.py`)
@@ -91,13 +95,27 @@ FyndCars implements a layered, fail-fast intake architecture that prevents corru
 
 ---
 
+## 🚀 State-of-the-Art Optimizations & Engineering
+
+| Optimization Category | Architecture & Engineering Solution |
+| --- | --- |
+| **FastAPI Lifespan Architecture** | Standard `@asynccontextmanager async def lifespan(app: FastAPI)` lifecycle management handling clean service initialization, logging, and graceful teardown. |
+| **Non-Blocking Async Event Loop** | All synchronous compute (OpenCV blur detection, Docling OCR parsing, YOLOv8 model inference) and Supabase Storage network uploads are offloaded via `asyncio.to_thread`, preventing event-loop starvation during multi-megabyte intake pipelines. |
+| **Bounded In-Memory Catalog Caching** | High-performance catalog lookup engine (`/catalog/makes`, `/models`, `/variants`) featuring TTL expiration (5 minutes) and memory-bounded size eviction to serve instant responses with zero database round-trips. |
+| **Strict Pydantic v2 Domain Boundaries** | `ListingUpdate` schemas strictly isolate updatable seller fields from immutable telemetry fields (`vlm_report`, `ocr_odometer_km`, `plate_number`, `status`, `seller_id`). Enforces numeric boundary checks (`price <= 100M`, `mileage <= 2M km`, `owner_count <= 20`) and limits file payloads to 25MB with 15 photos max. |
+| **Zero-Trust JWT Auth & Production Fail-Fast** | `middleware/auth.py` validates JWTs directly against `SUPABASE_JWT_SECRET`, extracting roles strictly from immutable `app_metadata`. Enforces environment checks (`FYND_ENV=production`) ensuring the server fails at startup if secrets or payment gateways are unconfigured. |
+| **PostgREST Batch & Signature Integrity** | Guards database batch inserts against empty arrays (`if image_paths:`) to eliminate PostgREST 400 errors. Validates payment webhooks via constant-time HMAC-SHA256 signatures (`hmac.compare_digest`). |
+| **Atomic Override Reconciliation** | Admin overrides automatically synchronize `verification_status: "verified_clean"` upon approval, maintaining end-to-end data consistency across human-in-the-loop audit logs. |
+
+---
+
 ## ⚡ Core Features
 
 | Module | Technical Implementation |
 | --- | --- |
 | **One-Shot Automated Intake** | `POST /listings/auto-extract` processes multipart images and RC document in a single request, creating the draft listing and saving complete damage telemetry. |
 | **Indian Automotive Catalog** | Seeded with 284+ verified variants (2000–2026) across major Indian OEMs (Maruti Suzuki, Hyundai, Tata, Mahindra, Kia, Toyota, Honda, etc.). Provides lookup endpoints (`/listings/catalog/makes`, `/models`, `/variants`). |
-| **Anti-Fraud Odometer Check** | `POST /listings/{id}/submit` compares seller-declared `mileage_km` against VLM-detected `ocr_odometer_km`. Deviations $> 5,000\text{ km}$ trigger automated review escalation. |
+| **Anti-Fraud Odometer Check** | `POST /listings/{id}/submit` compares seller-declared `mileage_km` against VLM-detected `ocr_odometer_km`. Deviations $> 1,500\text{ km}$ trigger automated review escalation. |
 | **Faceted Marketplace Search** | `GET /listings` supports multi-parameter filtering (make, model, city, price range, year range, fuel type, transmission, body type, mileage, equipment tags, and full-text search). |
 | **Admin Review Queue & Overrides** | Dedicated review portal (`/queue`) enabling administrators to inspect pending/escalated vehicles, analyze model detections, and execute auditable approval/rejection overrides with mandatory justification logs stored in `assessment_overrides`. |
 | **Supabase JWT Authentication & RBAC** | Custom middleware (`middleware/auth.py`) verifying Supabase access tokens using `PyJWT` (HS256). Strictly extracts authorization roles (`admin`, `seller`, `buyer`) from administrative `app_metadata`. |
@@ -105,7 +123,7 @@ FyndCars implements a layered, fail-fast intake architecture that prevents corru
 | **Verified Post-Sale Reviews** | Rating system (`/sellers/{id}/reviews`) restricted strictly to confirmed buyers of sold vehicles (`status = sold`), with database constraints preventing self-reviews and duplicate submissions. |
 | **Impression Analytics** | Impression tracking service (`/listings/{id}/view`) utilizing client IP hashing to record unique visitor metrics and 7-day view trends without storing raw PII. |
 | **Pro Search Alerts** | Saved search alert engine (`/search-alerts`) storing buyer vehicle search criteria and providing query matching endpoints against active catalog inventory. |
-| **Platform Subscriptions** | Subscription tier structure (`user_subscriptions`) supporting commercial listing plans (`seller_unlimited_listings`, `pro_buyer_alerts`, `ai_inspection_bundle`) with payment confirmation hooks. |
+| **Platform Subscriptions & Razorpay Gateways** | Subscription tier structure (`user_subscriptions`) supporting commercial listing plans (`seller_unlimited_listings`, `pro_buyer_alerts`, `ai_inspection_bundle`) with cryptographic HMAC-SHA256 payment confirmation. |
 
 ---
 
@@ -236,16 +254,20 @@ LLM_MODEL=google/gemma-4-31b-it:free
 
 ## 🧪 Automated Testing & Performance
 
-FyndCars includes a comprehensive automated test suite covering authentication, damage inference, marketplace search, messaging, review gating, and administrative workflows.
+FyndCars includes a comprehensive, multi-layer automated test suite covering authentication, damage inference, marketplace search, messaging, review gating, administrative workflows, and deep edge-case battle testing.
 
 ```bash
 cd backend
 python -m pytest tests/ -v -p no:langsmith -p no:logfire
 ```
 
-### Benchmark Results
-- **Pytest Suite:** **87 passed in 8.25s** (>12x speedup via batching and zero-allocation triage)
-- **Linter & Type Checks:** **`ruff check .` — All checks passed! (0 errors, 0 warnings)**
+### Benchmark & Quality Results
+- **Test Suite Pass Rate:** **102/102 Passed (100%) in 17.30s** across:
+  - `tests/test_api.py` — Core endpoints, health, OpenAPI contracts, and triage policies.
+  - `tests/test_marketplace.py` — Buyer-seller messaging, saved listings, view impressions, verified reviews, search alerts, and Razorpay HMAC payment subscriptions.
+  - `tests/test_battle_hardened.py` — Synthetic pixel gate validation, corrupt buffer handling, tamper protection, and RBAC boundary enforcement.
+- **Linter & Code Standards:** **`ruff check .` — All checks passed (0 errors, 0 warnings)**
+- **Async Concurrency:** 100% non-blocking event loop execution via `asyncio.to_thread` for all OpenCV/Docling/YOLO/Storage network calls.
 
 ---
 

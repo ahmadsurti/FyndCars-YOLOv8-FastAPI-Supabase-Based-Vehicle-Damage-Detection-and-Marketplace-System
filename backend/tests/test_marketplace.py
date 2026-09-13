@@ -476,6 +476,40 @@ class TestSubscriptions:
                             json={"razorpay_order_id": "order_123", "razorpay_payment_id": "pay_123"},
                             headers=BUYER).status_code == 400  # already active
 
+    def test_confirm_with_hmac_signature(self, install_db, monkeypatch):
+        import hmac, hashlib
+        secret = "test_rzp_secret"
+        monkeypatch.setenv("RAZORPAY_KEY_SECRET", secret)
+        install_db({"user_subscriptions": [
+            {"id": "s1", "user_id": BUYER_ID, "plan_type": "pro_buyer_alerts", "status": "pending",
+             "razorpay_order_id": None, "razorpay_payment_id": None, "amount_paid": 499.0,
+             "currency": "INR", "valid_until": "2026-09-30T00:00:00+00:00", "created_at": NOW}]})
+        
+        # Valid signature
+        valid_sig = hmac.new(secret.encode(), b"order_123|pay_123", hashlib.sha256).hexdigest()
+        r = client.patch("/subscriptions/s1/confirm",
+                         json={"razorpay_order_id": "order_123", "razorpay_payment_id": "pay_123", "razorpay_signature": valid_sig},
+                         headers=BUYER)
+        assert r.status_code == 200
+
+        # Invalid signature
+        install_db({"user_subscriptions": [
+            {"id": "s2", "user_id": BUYER_ID, "plan_type": "pro_buyer_alerts", "status": "pending",
+             "razorpay_order_id": None, "razorpay_payment_id": None, "amount_paid": 499.0,
+             "currency": "INR", "valid_until": "2026-09-30T00:00:00+00:00", "created_at": NOW}]})
+        r_bad = client.patch("/subscriptions/s2/confirm",
+                             json={"razorpay_order_id": "order_123", "razorpay_payment_id": "pay_123", "razorpay_signature": "bad_sig"},
+                             headers=BUYER)
+        assert r_bad.status_code == 400
+        assert "Invalid payment signature" in r_bad.json()["detail"]
+
+        # Missing signature when secret is set
+        r_missing = client.patch("/subscriptions/s2/confirm",
+                                 json={"razorpay_order_id": "order_123", "razorpay_payment_id": "pay_123"},
+                                 headers=BUYER)
+        assert r_missing.status_code == 400
+        assert "Payment signature required" in r_missing.json()["detail"]
+
     def test_cancel_keeps_row(self, install_db):
         install_db({"user_subscriptions": [
             {"id": "s1", "user_id": BUYER_ID, "plan_type": "pro_buyer_alerts", "status": "active",

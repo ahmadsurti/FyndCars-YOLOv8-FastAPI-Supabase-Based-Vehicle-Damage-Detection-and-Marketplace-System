@@ -8,12 +8,14 @@ Routers: /listings, /queue, /admin (mounted below)
          (marketplace extensions)
 """
 
+import asyncio
 import logging
 import os
 import time
 import uuid
 from datetime import datetime, timezone
 
+from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -74,19 +76,28 @@ class HealthResponse(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# App
+# App & Lifespan
 # ---------------------------------------------------------------------------
 APP_START_TIME = time.time()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("Starting up fynd(cars) API backend...")
+    yield
+    logger.info("Shutting down fynd(cars) API backend...")
+
 
 app = FastAPI(
     title="fynd(cars) API",
     description="AI-powered car marketplace backend. YOLOv8 damage assessment + policy triage.",
     version="1.0.0",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[os.getenv("CORS_ORIGIN", "http://localhost:5173")],
+    allow_origins=[o.strip() for o in os.getenv("CORS_ORIGIN", "http://localhost:5173").split(",")],  # #37: multi-origin support
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -153,7 +164,7 @@ async def assess_damage(image: UploadFile = File(...)):
     logger.info("[%s] Assessing: %s (%d bytes)", assessment_id, image.filename, len(image_bytes))
 
     try:
-        result = assessment.run_assessment(image_bytes)
+        result = await asyncio.to_thread(assessment.run_assessment, image_bytes)
     except Exception as e:
         logger.error("[%s] Assessment error: %s", assessment_id, e)
         raise HTTPException(500, f"Assessment failed: {e}")

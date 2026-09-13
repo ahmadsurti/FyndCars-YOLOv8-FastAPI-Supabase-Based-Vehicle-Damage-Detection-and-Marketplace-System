@@ -1,9 +1,6 @@
-"""
-fynd(cars) — Marketplace Listings API
-Unified AI Intake (POST /auto-extract), verification guards, and catalog endpoints.
-"""
-
+import asyncio
 import logging
+import time
 import uuid
 from typing import Optional
 
@@ -26,6 +23,24 @@ def _db():
         raise HTTPException(503, "Database client unavailable")
     return supabase
 
+# #7: In-memory cache for static catalog endpoints
+_CATALOG_CACHE: dict[str, tuple[float, list]] = {}
+_CACHE_TTL = 300.0  # 5 minutes
+
+
+def _get_cached_catalog(key: str) -> Optional[list]:
+    if key in _CATALOG_CACHE:
+        ts, data = _CATALOG_CACHE[key]
+        if time.time() - ts < _CACHE_TTL:
+            return data
+    return None
+
+
+def _set_cached_catalog(key: str, data: list):
+    if len(_CATALOG_CACHE) > 500:
+        _CATALOG_CACHE.clear()
+    _CATALOG_CACHE[key] = (time.time(), data)
+
 # ---------------------------------------------------------------------------
 # Pydantic Schemas
 # ---------------------------------------------------------------------------
@@ -45,6 +60,21 @@ class DocumentUpload(BaseModel):
 
 class SaleRecord(BaseModel):
     buyer_id: Optional[str] = Field(None, description="Buyer profile id for verified review")
+
+
+# Explicit Pydantic models — unknown fields rejected, types coerced, immutable fields never reach the dict
+class ListingUpdate(BaseModel):
+    title: str | None = None
+    description: str | None = None
+    price: float | None = Field(None, gt=0, le=100_000_000)
+    city: str | None = None
+    transmission: str | None = None
+    body_type: str | None = None
+    features: list[str] | None = None
+    mileage_km: int | None = Field(None, ge=0, le=2_000_000)
+    owner_count: int | None = Field(None, ge=1, le=20)
+    variant: str | None = None
+    color: str | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -142,9 +172,53 @@ async def list_listings(
 
 
 @router.get("/mine", tags=["Listings"])
-async def my_listings(user: dict = Depends(get_current_user)):
+async def my_listings(
+    limit: int = Query(50, ge=1, le=200),  # #27: pagination
+    offset: int = Query(0, ge=0),
+    user: dict = Depends(get_current_user),
+):
     """All listings owned by the logged-in user."""
-    return _db().table("listings").select("*, listing_images(*)").eq("seller_id", user["id"]).order("created_at", desc=True).limit(100).execute().data
+    return _db().table("listings").select("*, listing_images(*)").eq("seller_id", user["id"]).order("created_at", desc=True).range(offset, offset + limit - 1).execute().data
+
+
+@router.get("/catalog/makes", tags=["Catalog"])  # #21: declared ABOVE /{listing_id} to prevent shadowing
+async def catalog_makes():
+    """Distinct car makes."""
+    cached = _get_cached_catalog("makes")
+    if cached is not None:
+        return cached
+    res = _db().table("vehicle_catalog").select("make").execute()
+    makes = [{"make": m} for m in sorted({row["make"] for row in (res.data or [])})]
+    _set_cached_catalog("makes", makes)
+    return makes
+
+
+@router.get("/catalog/models", tags=["Catalog"])  # #21
+async def catalog_models(make: str = Query(..., description="Filter by make")):
+    """Distinct models for a make."""
+    ckey = f"models:{make.strip().title()}"
+    cached = _get_cached_catalog(ckey)
+    if cached is not None:
+        return cached
+    res = _db().table("vehicle_catalog").select("model").eq("make", make.strip().title()).execute()
+    models = [{"model": m} for m in sorted({row["model"] for row in (res.data or [])})]
+    _set_cached_catalog(ckey, models)
+    return models
+
+
+@router.get("/catalog/variants", tags=["Catalog"])  # #21
+async def catalog_variants(make: str = Query(...), model: str = Query(...)):
+    """All variants and specs for a make + model."""
+    ckey = f"variants:{make.strip().title()}:{model.strip().title()}"
+    cached = _get_cached_catalog(ckey)
+    if cached is not None:
+        return cached
+    res = _db().table("vehicle_catalog").select(
+        "variant, year_start, year_end, body_type, fuel_type, transmission, features, colors"
+    ).eq("make", make.strip().title()).eq("model", model.strip().title()).order("year_start", desc=True).execute()
+    variants = res.data or []
+    _set_cached_catalog(ckey, variants)
+    return variants
 
 
 @router.get("/{listing_id}", tags=["Listings"])
@@ -177,37 +251,53 @@ async def auto_extract(
     db = _db()
     if len(images) < 3:
         raise HTTPException(400, "Minimum 3 car photos required.")
+    if len(images) > 15:
+        raise HTTPException(400, "Maximum 15 car photos allowed per listing.")
 
-    # Gate 0: Quality Check
+    if document.content_type and not (
+        document.content_type.startswith("image/")
+        or document.content_type in ("application/pdf", "application/octet-stream")
+    ):
+        raise HTTPException(400, "Document must be a PDF or image file.")
+
+    # Gate 0: Quality Check (#3/#34: offloaded from event loop)
     car_bytes_list: list[bytes] = []
     for img in images:
         raw = await img.read()
-        passes, reason = quality_gate.check_image_quality(raw)
+        if len(raw) > 25 * 1024 * 1024:
+            raise HTTPException(400, f"Image '{img.filename}' exceeds 25MB limit.")
+        passes, reason = await asyncio.to_thread(quality_gate.check_image_quality, raw)
         if not passes:
             raise HTTPException(400, f"Image '{img.filename}' rejected — {reason}")
         car_bytes_list.append(raw)
 
     doc_bytes = await document.read()
+    if len(doc_bytes) > 25 * 1024 * 1024:
+        raise HTTPException(400, "Document file size exceeds 25MB limit.")
 
-    # Upload to Supabase Storage
+    # Upload to Supabase Storage — non-blocking thread execution
     image_paths: list[str] = []
     for img, raw in zip(images, car_bytes_list):
         ext = (img.filename or "photo.jpg").rsplit(".", 1)[-1].lower()
         path = f"listings/{user['id']}/{uuid.uuid4()}.{ext}"
-        db.storage.from_("car-images").upload(path, raw, {"content-type": img.content_type or "image/jpeg"})
+        up = await asyncio.to_thread(db.storage.from_("car-images").upload, path, raw, {"content-type": img.content_type or "image/jpeg"})
+        if hasattr(up, "error") and up.error:
+            raise HTTPException(500, f"Image upload failed: {up.error}")
         image_paths.append(f"car-images/{path}")
 
     doc_ext = (document.filename or "doc.pdf").rsplit(".", 1)[-1].lower()
     doc_path = f"listings/{user['id']}/{uuid.uuid4()}.{doc_ext}"
-    db.storage.from_("car-documents").upload(doc_path, doc_bytes, {"content-type": document.content_type or "application/pdf"})
+    doc_up = await asyncio.to_thread(db.storage.from_("car-documents").upload, doc_path, doc_bytes, {"content-type": document.content_type or "application/pdf"})
+    if hasattr(doc_up, "error") and doc_up.error:
+        raise HTTPException(500, f"Document upload failed: {doc_up.error}")
     doc_storage_path = f"car-documents/{doc_path}"
 
-    # Gate 1a: YOLOv8 Damage Assessment
+    # Gate 1a: YOLOv8 Damage Assessment (#3: non-blocking thread)
     all_damages, damage_assessments = [], []
     if assessment.available():
         for raw in car_bytes_list:
             try:
-                res = assessment.run_assessment(raw)
+                res = await asyncio.to_thread(assessment.run_assessment, raw)
                 all_damages.extend(res.get("damages_detected", []))
                 damage_assessments.append(res)
             except Exception as e:
@@ -217,12 +307,12 @@ async def auto_extract(
     highest_severity = max(all_damages, key=lambda d: _SEV_RANK.get(d.get("severity", "none"), 0)).get("severity", "none") if all_damages else "none"
     total_cost = sum(d.get("estimated_cost", 0) for d in all_damages)
 
-    # Gate 1b: Docling RC Extraction
-    extracted_rc = rc_extractor.extract_rc_fields(doc_bytes, filename=document.filename or "document.pdf")
+    # Gate 1b: Docling RC Extraction (#3: non-blocking thread)
+    extracted_rc = await asyncio.to_thread(rc_extractor.extract_rc_fields, doc_bytes, filename=document.filename or "document.pdf")
 
-    # Gate 1c: Multimodal VLM Verification
+    # Gate 1c: Multimodal VLM Verification (#3/#18: non-blocking thread)
     doc_images = [doc_bytes] if (document.content_type and document.content_type.startswith("image/")) else []
-    vlm_result = vlm_verifier.verify(car_image_bytes=car_bytes_list, doc_image_bytes=doc_images, extracted_rc=extracted_rc)
+    vlm_result = await asyncio.to_thread(vlm_verifier.verify, car_image_bytes=car_bytes_list, doc_image_bytes=doc_images, extracted_rc=extracted_rc)
 
     telemetry = vlm_result.get("telemetry", {})
     legal = vlm_result.get("legal_identity", {})
@@ -252,29 +342,41 @@ async def auto_extract(
         raise HTTPException(500, "Failed to create draft listing")
     listing_id = listing_res.data[0]["id"]
 
-    # Insert images
-    inserted_images = db.table("listing_images").insert([
-        {"listing_id": listing_id, "storage_path": p, "is_primary": i == 0, "order_index": i}
-        for i, p in enumerate(image_paths)
-    ]).execute().data or []
+    # #13: Rollback draft listing if subsequent inserts fail
+    try:
+        # Insert images
+        inserted_images = []
+        if image_paths:
+            inserted_images = db.table("listing_images").insert([
+                {"listing_id": listing_id, "storage_path": p, "is_primary": i == 0, "order_index": i}
+                for i, p in enumerate(image_paths)
+            ]).execute().data or []
 
-    # Insert document
-    db.table("listing_documents").insert({
-        "listing_id": listing_id, "document_type": "ownership_title",
-        "document_name": document.filename, "storage_path": doc_storage_path, "verification_status": "pending",
-    }).execute()
+        # Insert document
+        db.table("listing_documents").insert({
+            "listing_id": listing_id, "document_type": "ownership_title",
+            "document_name": document.filename, "storage_path": doc_storage_path, "verification_status": "pending",
+        }).execute()
 
-    # Insert assessments
-    if damage_assessments and assessment.available() and inserted_images:
-        asm_rows = [
-            {
-                "listing_id": listing_id, "image_id": inserted_images[i]["id"] if i < len(inserted_images) else None,
-                "assessment_id_ext": str(uuid.uuid4())[:12],
-                **{k: asm[k] for k in ASSESSMENT_DB_FIELDS if k in asm},
-            }
-            for i, asm in enumerate(damage_assessments)
-        ]
-        db.table("assessments").insert(asm_rows).execute()
+        # Insert assessments
+        if damage_assessments and assessment.available() and inserted_images:
+            asm_rows = [
+                {
+                    "listing_id": listing_id, "image_id": inserted_images[i]["id"] if i < len(inserted_images) else None,
+                    "assessment_id_ext": str(uuid.uuid4())[:12],
+                    **{k: asm[k] for k in ASSESSMENT_DB_FIELDS if k in asm},
+                }
+                for i, asm in enumerate(damage_assessments)
+            ]
+            db.table("assessments").insert(asm_rows).execute()
+    except Exception as e:
+        logger.error("Auto-extract partial failure, rolling back listing %s: %s", listing_id, e)
+        try:
+            db.table("listings").delete().eq("id", listing_id).execute()
+        except Exception:
+            pass
+        raise HTTPException(500, f"Failed to save listing attachments: {e}")
+
 
     return {
         "listing_id": listing_id,
@@ -309,7 +411,7 @@ async def auto_extract(
 # ---------------------------------------------------------------------------
 
 @router.patch("/{listing_id}", tags=["Listings"])
-async def update_listing(listing_id: str, payload: dict, user: dict = Depends(get_current_user)):
+async def update_listing(listing_id: str, payload: ListingUpdate, user: dict = Depends(get_current_user)):  # #1: Pydantic model
     """Seller updates draft listing. Telemetry fields are immutable by seller."""
     db = _db()
     existing = db.table("listings").select("seller_id, status").eq("id", listing_id).single().execute()
@@ -320,10 +422,11 @@ async def update_listing(listing_id: str, payload: dict, user: dict = Depends(ge
     if existing.data["status"] != "draft" and user["role"] != "admin":
         raise HTTPException(400, "Only draft listings can be edited")
 
-    for k in ("status", "seller_id", "verification_status", "vlm_report", "ocr_odometer_km", "plate_number"):
-        payload.pop(k, None)
+    updates = payload.model_dump(exclude_none=True)  # only provided fields, immutable fields absent by design
+    if not updates:  # #31: guard empty payload
+        raise HTTPException(400, "No updatable fields provided")
 
-    res = db.table("listings").update(payload).eq("id", listing_id).execute()
+    res = db.table("listings").update(updates).eq("id", listing_id).execute()
     return res.data[0] if res.data else {"status": "updated"}
 
 
@@ -367,7 +470,7 @@ async def upload_listing_image(listing_id: str, payload: ImageUpload, user: dict
         try:
             image_bytes = await fetch_image_bytes(payload.storage_path)
             if image_bytes:
-                result = assessment.run_assessment(image_bytes)
+                result = await asyncio.to_thread(assessment.run_assessment, image_bytes)
                 damage_stats = result["damage_stats"]
                 expert_commentary = result["expert_commentary"]
                 asm_res = db.table("assessments").insert({
@@ -421,12 +524,16 @@ async def submit_listing(listing_id: str, user: dict = Depends(require_role(["se
     if listing["status"] != "draft":
         raise HTTPException(400, f"Listing is already '{listing['status']}'")
 
-    # Step 1: Draft -> Pending (Database trigger validates minimum 3 photos + title doc)
-    try:
-        db.table("listings").update({"status": "pending"}).eq("id", listing_id).execute()
-    except Exception as e:
-        raise HTTPException(400, str(e))
+    # Validate mandatory attachments before submission
+    imgs = db.table("listing_images").select("id").eq("listing_id", listing_id).execute().data or []
+    if len(imgs) < 3:
+        raise HTTPException(400, f"A minimum of 3 vehicle photos are required to submit (Found: {len(imgs)})")
 
+    docs = db.table("listing_documents").select("id").eq("listing_id", listing_id).eq("document_type", "ownership_title").execute().data or []
+    if not docs:
+        raise HTTPException(400, "Mandatory proof of ownership document (ownership_title) must be uploaded before submission")
+
+    # #25: Defer status write until ALL guards pass — prevents stuck-pending on mid-route exception
     final_status = "pending"
     updates: dict = {}
 
@@ -445,16 +552,22 @@ async def submit_listing(listing_id: str, user: dict = Depends(require_role(["se
     worst = _worst_decision(asm_res.data or [])
     yolo_status = {"ESCALATE": "escalated", "HUMAN_REVIEW": "pending"}.get(worst, "active")
 
+    # #32: fixed rank table — "active" is the desired promotion target, not a low-priority state
+    # Logic: yolo wins only when it is MORE severe; AUTO_APPROVE -> "active" wins over "pending"
     status_rank = {"escalated": 3, "pending": 2, "active": 1}
     if status_rank.get(yolo_status, 0) > status_rank.get(final_status, 0):
         final_status = yolo_status
+    elif yolo_status == "active" and final_status == "pending":
+        final_status = "active"  # #32: allow AUTO_APPROVE to promote pending -> active
 
     updates["status"] = final_status
     if "verification_status" not in updates and final_status == "active":
         updates["verification_status"] = "verified_clean"
 
+    # Now write status in a single atomic update
     res = db.table("listings").update(updates).eq("id", listing_id).execute()
     return {"listing_id": listing_id, "final_status": final_status, **(res.data[0] if res.data else {})}
+
 
 
 @router.post("/{listing_id}/sell", tags=["Listings"])
@@ -482,30 +595,3 @@ async def get_listing_assessment(listing_id: str):
     if not res.data:
         raise HTTPException(404, "No assessment found for this listing")
     return res.data[0]
-
-
-# ---------------------------------------------------------------------------
-# Vehicle Catalog Endpoints (Autofill & Cascading Dropdowns)
-# ---------------------------------------------------------------------------
-
-@router.get("/catalog/makes", tags=["Catalog"])
-async def catalog_makes():
-    """Distinct car makes."""
-    res = _db().table("vehicle_catalog").select("make").execute()
-    return [{"make": m} for m in sorted({row["make"] for row in (res.data or [])})]
-
-
-@router.get("/catalog/models", tags=["Catalog"])
-async def catalog_models(make: str = Query(..., description="Filter by make")):
-    """Distinct models for a make."""
-    res = _db().table("vehicle_catalog").select("model").eq("make", make.strip().title()).execute()
-    return [{"model": m} for m in sorted({row["model"] for row in (res.data or [])})]
-
-
-@router.get("/catalog/variants", tags=["Catalog"])
-async def catalog_variants(make: str = Query(...), model: str = Query(...)):
-    """All variants and specs for a make + model."""
-    res = _db().table("vehicle_catalog").select(
-        "variant, year_start, year_end, body_type, fuel_type, transmission, features, colors"
-    ).eq("make", make.strip().title()).eq("model", model.strip().title()).order("year_start", desc=True).execute()
-    return res.data or []

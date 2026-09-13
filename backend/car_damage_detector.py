@@ -94,11 +94,15 @@ class CarDamageDetector:
 
     def detect_damage(self, image: Union[str, np.ndarray, Image.Image]) -> Dict:
         if isinstance(image, str):
-            img = cv2.cvtColor(cv2.imread(image), cv2.COLOR_BGR2RGB)
+            read_img = cv2.imread(image)
+            if read_img is None:
+                raise ValueError(f"Cannot read image at path: {image}")
+            img = cv2.cvtColor(read_img, cv2.COLOR_BGR2RGB)
         elif isinstance(image, Image.Image):
             img = np.array(image)
         else:
             img = image.copy()
+
 
         shape = img.shape[:2]  # (height, width)
         results = self.model(img, conf=self.confidence_threshold, verbose=False)

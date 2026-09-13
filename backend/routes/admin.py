@@ -99,18 +99,17 @@ async def list_all_subscriptions(limit: int = Query(50, ge=1, le=200), offset: i
 async def get_platform_stats():
     """Executive KPIs: listing status distribution, auto-approval rate, total users/overrides."""
     db = _db()
-    listings = db.table("listings").select("status, assessments(decision)").execute().data or []
+    # #4: Select status only, avoid pulling all assessments for every listing
+    listings = db.table("listings").select("status").execute().data or []
     status_counts: dict[str, int] = {}
-    auto_approved = 0
-
     for listing in listings:
         s = listing.get("status", "unknown")
         status_counts[s] = status_counts.get(s, 0) + 1
-        for asm in (listing.get("assessments") or []):
-            if asm.get("decision") == "AUTO_APPROVE":
-                auto_approved += 1
 
     total = len(listings)
+    asm_res = db.table("assessments").select("id", count="exact").eq("decision", "AUTO_APPROVE").execute()
+    auto_approved = asm_res.count if asm_res.count is not None else 0
+
     overrides_res = db.table("assessment_overrides").select("id", count="exact").execute()
     users_res = db.table("profiles").select("id", count="exact").execute()
 

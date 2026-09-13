@@ -143,13 +143,16 @@ def extract_rc_fields(doc_bytes: bytes, filename: str = "document.pdf") -> dict:
     # Normalize name fields to Title Case so they match catalog storage
     # regardless of what case Docling OCR returns (HYUNDAI / hyundai / Hyundai).
     for title_field in ("make", "model", "variant"):
-        if extracted.get(title_field):
-            extracted[title_field] = extracted[title_field].strip().title()
+        val = extracted.get(title_field)
+        if isinstance(val, str):
+            extracted[title_field] = val.strip().title()
 
     # Code fields stay UPPER — they are identifiers, not display names.
     for upper_field in ("registration_number", "chassis_vin", "engine_number"):
-        if extracted.get(upper_field):
-            extracted[upper_field] = extracted[upper_field].strip().upper()
+        val = extracted.get(upper_field)
+        if isinstance(val, str):
+            extracted[upper_field] = val.strip().upper()
+
 
     logger.info(
         "RC extraction complete — %d/%d fields populated",

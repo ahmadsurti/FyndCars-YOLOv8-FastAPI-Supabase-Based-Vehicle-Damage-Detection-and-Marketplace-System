@@ -8,13 +8,18 @@ import os
 import logging
 from typing import Optional
 from fastapi import Header, HTTPException, Depends, status
+import jwt  # #5: top-level import — fails at startup if PyJWT missing, not on first request
 
 logger = logging.getLogger("fynd(cars)_api")
 
 SUPABASE_JWT_SECRET = os.getenv("SUPABASE_JWT_SECRET", "")
 
+# #11: fail-fast in production if JWT secret is blank — prevents demo-token auth bypass
+if os.getenv("FYND_ENV", "").lower() == "production" and not SUPABASE_JWT_SECRET:
+    raise RuntimeError("SUPABASE_JWT_SECRET must be set in production (FYND_ENV=production)")
 
-def get_current_user(authorization: Optional[str] = Header(None)) -> dict:
+
+def get_current_user(authorization: str | None = Header(None)) -> dict:
     """
     FastAPI dependency → { "id": uuid, "role": str, "email": str }
     Verifies Supabase JWT when SUPABASE_JWT_SECRET is set.
@@ -27,7 +32,6 @@ def get_current_user(authorization: Optional[str] = Header(None)) -> dict:
 
     if SUPABASE_JWT_SECRET:
         try:
-            import jwt
             payload = jwt.decode(token, SUPABASE_JWT_SECRET, algorithms=["HS256"], options={"verify_aud": False})
         except Exception as e:
             logger.warning("JWT verification failed: %s", e)
@@ -35,24 +39,27 @@ def get_current_user(authorization: Optional[str] = Header(None)) -> dict:
     else:
         # Dev mode: decode without verification OR accept simple demo tokens
         try:
-            import jwt
             payload = jwt.decode(token, options={"verify_signature": False})
         except Exception:
             # Simple demo tokens for local curl testing
             role = "admin" if "admin" in token else "seller" if "seller" in token else "buyer"
             return {"id": f"demo-{role}-id", "role": role, "email": f"{role}@fynd(cars).dev"}
 
+    user_id = payload.get("sub") or payload.get("id")
+    if not user_id:
+        raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Token payload missing user identifier")
+
     # Role: ONLY from app_metadata — user_metadata is user-editable and unsafe for authz
     role = (payload.get("app_metadata") or {}).get("role") or payload.get("role") or "buyer"
 
     return {
-        "id": payload.get("sub", ""),
+        "id": str(user_id),
         "role": role,
         "email": payload.get("email", ""),
     }
 
 
-def get_optional_user(authorization: Optional[str] = Header(None)) -> Optional[dict]:
+def get_optional_user(authorization: str | None = Header(None)) -> dict | None:
     """
     Like get_current_user, but returns None instead of raising when the
     request is unauthenticated. For endpoints usable by both anon and

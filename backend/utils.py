@@ -3,6 +3,7 @@ fynd(cars) — Shared helpers for the FastAPI backend.
 Single source of truth for assessment stats, timestamps, and asset downloads.
 """
 
+import asyncio
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 import httpx
@@ -23,8 +24,9 @@ async def fetch_image_bytes(storage_path: str) -> Optional[bytes]:
     if supabase:
         bucket, _, fpath = storage_path.partition("/")
         if fpath:
-            return supabase.storage.from_(bucket).download(fpath)
+            return await asyncio.to_thread(supabase.storage.from_(bucket).download, fpath)
     return None
+
 
 
 def calculate_damage_stats(detections: List[Dict]) -> Dict:

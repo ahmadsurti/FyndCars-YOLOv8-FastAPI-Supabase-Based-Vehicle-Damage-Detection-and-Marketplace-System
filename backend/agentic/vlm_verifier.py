@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import base64
 import json
+import copy
 import logging
 import os
 from typing import Optional
@@ -112,7 +113,7 @@ def verify(
 
     if not base_url or not api_key:
         logger.warning("VLM verifier: LLM_BASE_URL / LLM_API_KEY not set — returning safe default.")
-        return _DEFAULT_RESULT.copy()
+        return copy.deepcopy(_DEFAULT_RESULT)
 
     if not base_url.endswith("/v1"):
         base_url += "/v1"
@@ -170,7 +171,8 @@ def verify(
         return result
     except json.JSONDecodeError as e:
         logger.error("VLM: JSON parse error — %s | raw: %.200s", e, raw_text)
-        return _DEFAULT_RESULT.copy()
+        return copy.deepcopy(_DEFAULT_RESULT)
     except Exception as e:
         logger.error("VLM verifier error: %s", e)
-        return _DEFAULT_RESULT.copy()
+        return copy.deepcopy(_DEFAULT_RESULT)
+

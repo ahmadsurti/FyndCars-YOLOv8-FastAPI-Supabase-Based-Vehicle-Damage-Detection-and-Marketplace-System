@@ -51,8 +51,11 @@ async def submit_override(listing_id: str, payload: OverrideRequest, user: dict 
 
     assessment = asm_res.data[0]
     new_status = "active" if decision_norm == "APPROVE" else "rejected"
+    listing_updates = {"status": new_status}
+    if new_status == "active":
+        listing_updates["verification_status"] = "verified_clean"
 
-    db.table("listings").update({"status": new_status}).eq("id", listing_id).execute()
+    db.table("listings").update(listing_updates).eq("id", listing_id).execute()
 
     override_row = {
         "assessment_id": assessment["id"],

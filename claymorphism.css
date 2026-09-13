@@ -1,0 +1,262 @@
+/*
+ * ═══════════════════════════════════════════════════════════
+ * CLAYMORPHISM — Portable Standalone Stylesheet
+ * Extracted from Document Copilot (Parchment/Violet theme)
+ *
+ * Usage
+ * ─────
+ * 1. Drop this file into your project and import it.
+ * 2. Add class="clay-light" (or "clay-dark") to <html> / <body>.
+ * 3. Use the .clay utility class on any element to apply the
+ *    signature soft-raised card look.
+ * 4. Override any token in your own stylesheet as needed.
+ *
+ * No framework required — plain CSS custom properties + classes.
+ * ═══════════════════════════════════════════════════════════
+ */
+
+/* ────────────────────────────────────────────────────────────
+   LIGHT MODE TOKENS  (.clay-light  or  :root by default)
+   ──────────────────────────────────────────────────────────── */
+:root,
+.clay-light {
+  /* Surfaces */
+  --clay-bg:                oklch(0.923  0.003  48.72);   /* warm parchment page   */
+  --clay-surface:           oklch(0.944  0.003  48.72);   /* slightly lifted layer */
+  --clay-card:              oklch(0.970  0.001 106.42);   /* card face             */
+
+  /* Text */
+  --clay-fg:                oklch(0.280  0.037 260.03);   /* primary text          */
+  --clay-fg-muted:          oklch(0.551  0.023 264.36);   /* secondary / captions  */
+
+  /* Accent (violet) */
+  --clay-primary:           oklch(0.585  0.204 277.12);
+  --clay-primary-fg:        oklch(1.000  0.000   0.00);
+
+  /* Decorative pink/rose accent — for highlights, tags, etc. */
+  --clay-accent:            oklch(0.938  0.026 321.94);
+  --clay-accent-fg:         oklch(0.373  0.031 259.73);
+
+  /* Borders & inputs */
+  --clay-border:            oklch(0.869  0.004  56.37);
+  --clay-input:             oklch(0.869  0.004  56.37);
+  --clay-ring:              oklch(0.585  0.204 277.12);
+
+  /* ── Claymorphism shadows ──────────────────────────────────
+   * The hallmark of clay UI: diffuse spread + tight inner,
+   * all tinted with a subtle violet hue.
+   */
+  --clay-shadow-color:      oklch(0.672  0.012 286.08);   /* violet tint          */
+
+  --clay-shadow-2xs:        2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.09);
+  --clay-shadow-xs:         2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.09);
+  --clay-shadow-sm:         2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.18),
+                            2px 1px  2px 3px oklch(0.672 0.012 286.08 / 0.18);
+  --clay-shadow:            2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.18),
+                            2px 1px  2px 3px oklch(0.672 0.012 286.08 / 0.18);
+  --clay-shadow-md:         2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.18),
+                            2px 2px  4px 3px oklch(0.672 0.012 286.08 / 0.18);
+  --clay-shadow-lg:         2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.18),
+                            2px 4px  6px 3px oklch(0.672 0.012 286.08 / 0.18);
+  --clay-shadow-xl:         2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.18),
+                            2px 8px 10px 3px oklch(0.672 0.012 286.08 / 0.18);
+  --clay-shadow-2xl:        2px 2px 10px 4px oklch(0.672 0.012 286.08 / 0.45);
+
+  /* Geometry */
+  --clay-radius-sm:         0.375rem;
+  --clay-radius:            0.5rem;
+  --clay-radius-md:         0.625rem;
+  --clay-radius-lg:         0.875rem;
+  --clay-radius-xl:         1.25rem;
+  --clay-radius-pill:       9999px;
+}
+
+/* ────────────────────────────────────────────────────────────
+   DARK MODE TOKENS  (.clay-dark  or  .clay-light.dark)
+   ──────────────────────────────────────────────────────────── */
+.clay-dark,
+.clay-light.dark {
+  /* Surfaces */
+  --clay-bg:                oklch(0.224  0.007  67.44);   /* deep warm charcoal    */
+  --clay-surface:           oklch(0.203  0.008  67.38);   /* sunken layer          */
+  --clay-card:              oklch(0.280  0.008  59.34);   /* raised card           */
+
+  /* Text */
+  --clay-fg:                oklch(0.929  0.013 255.51);
+  --clay-fg-muted:          oklch(0.714  0.019 261.32);
+
+  /* Accent (violet — lighter for dark bg) */
+  --clay-primary:           oklch(0.680  0.158 276.93);
+  --clay-primary-fg:        oklch(0.224  0.007  67.44);
+
+  /* Decorative accent */
+  --clay-accent:            oklch(0.390  0.007  59.47);
+  --clay-accent-fg:         oklch(0.872  0.009 258.34);
+
+  /* Borders & inputs */
+  --clay-border:            oklch(0.336  0.008  59.42);
+  --clay-input:             oklch(0.336  0.008  59.42);
+  --clay-ring:              oklch(0.680  0.158 276.93);
+
+  /* ── Claymorphism shadows (dark — neutral black, no tint) ── */
+  --clay-shadow-color:      oklch(0 0 0);
+
+  --clay-shadow-2xs:        2px 2px 10px 4px oklch(0 0 0 / 0.09);
+  --clay-shadow-xs:         2px 2px 10px 4px oklch(0 0 0 / 0.09);
+  --clay-shadow-sm:         2px 2px 10px 4px oklch(0 0 0 / 0.18),
+                            2px 1px  2px 3px oklch(0 0 0 / 0.18);
+  --clay-shadow:            2px 2px 10px 4px oklch(0 0 0 / 0.18),
+                            2px 1px  2px 3px oklch(0 0 0 / 0.18);
+  --clay-shadow-md:         2px 2px 10px 4px oklch(0 0 0 / 0.18),
+                            2px 2px  4px 3px oklch(0 0 0 / 0.18);
+  --clay-shadow-lg:         2px 2px 10px 4px oklch(0 0 0 / 0.18),
+                            2px 4px  6px 3px oklch(0 0 0 / 0.18);
+  --clay-shadow-xl:         2px 2px 10px 4px oklch(0 0 0 / 0.18),
+                            2px 8px 10px 3px oklch(0 0 0 / 0.18);
+  --clay-shadow-2xl:        2px 2px 10px 4px oklch(0 0 0 / 0.45);
+}
+
+/* ────────────────────────────────────────────────────────────
+   BASE RESET (optional — remove if your project has its own)
+   ──────────────────────────────────────────────────────────── */
+.clay-light,
+.clay-dark {
+  background-color: var(--clay-bg);
+  color: var(--clay-fg);
+}
+
+/* ────────────────────────────────────────────────────────────
+   CORE UTILITY  —  .clay
+   The single class that makes anything look "clay".
+   Apply to cards, panels, modals, inputs, chips…
+   ──────────────────────────────────────────────────────────── */
+.clay {
+  background-color: var(--clay-card);
+  border:           1px solid var(--clay-border);
+  border-radius:    var(--clay-radius-md);
+  box-shadow:       var(--clay-shadow-sm);
+}
+
+/* ────────────────────────────────────────────────────────────
+   SIZE VARIANTS
+   ──────────────────────────────────────────────────────────── */
+.clay-sm  { border-radius: var(--clay-radius-sm); box-shadow: var(--clay-shadow-xs);  }
+.clay-lg  { border-radius: var(--clay-radius-lg); box-shadow: var(--clay-shadow-md);  }
+.clay-xl  { border-radius: var(--clay-radius-xl); box-shadow: var(--clay-shadow-xl);  }
+.clay-pill { border-radius: var(--clay-radius-pill); }
+
+/* ────────────────────────────────────────────────────────────
+   INTERACTIVE VARIANT  —  .clay-interactive
+   Adds hover lift + focus ring. Use on buttons, cards, links.
+   ──────────────────────────────────────────────────────────── */
+.clay-interactive {
+  cursor:     pointer;
+  transition: box-shadow 160ms ease, transform 120ms ease, border-color 160ms ease;
+}
+.clay-interactive:hover {
+  box-shadow:   var(--clay-shadow-lg);
+  transform:    translateY(-2px);
+  border-color: var(--clay-primary);
+}
+.clay-interactive:active {
+  box-shadow: var(--clay-shadow-xs);
+  transform:  translateY(0px);
+}
+.clay-interactive:focus-visible {
+  outline:        2px solid var(--clay-ring);
+  outline-offset: 2px;
+}
+
+/* ────────────────────────────────────────────────────────────
+   INPUT VARIANT  —  .clay-input
+   Focused input / textarea with clay glow ring.
+   ──────────────────────────────────────────────────────────── */
+.clay-input-field {
+  background-color: var(--clay-card);
+  border:           1.5px solid var(--clay-border);
+  border-radius:    var(--clay-radius-md);
+  box-shadow:       var(--clay-shadow-xs);
+  color:            var(--clay-fg);
+  transition:       border-color 160ms, box-shadow 160ms;
+}
+.clay-input-field:focus,
+.clay-input-field:focus-within {
+  border-color: var(--clay-primary);
+  box-shadow:   var(--clay-shadow-sm),
+                0 0 0 3px color-mix(in oklch, var(--clay-primary) 15%, transparent);
+  outline:      none;
+}
+
+/* ────────────────────────────────────────────────────────────
+   BUTTON VARIANT  —  .clay-btn
+   Solid primary + ghost secondary.
+   ──────────────────────────────────────────────────────────── */
+.clay-btn {
+  display:          inline-flex;
+  align-items:      center;
+  justify-content:  center;
+  gap:              0.5rem;
+  padding:          0.5rem 1.25rem;
+  border-radius:    var(--clay-radius-md);
+  font-weight:      600;
+  font-size:        0.875rem;
+  cursor:           pointer;
+  transition:       box-shadow 160ms, transform 120ms, background-color 120ms;
+  border:           1px solid transparent;
+  background-color: var(--clay-primary);
+  color:            var(--clay-primary-fg);
+  box-shadow:       var(--clay-shadow-sm);
+}
+.clay-btn:hover {
+  box-shadow: var(--clay-shadow-md);
+  transform:  translateY(-1px);
+  filter:     brightness(1.06);
+}
+.clay-btn:active {
+  box-shadow: var(--clay-shadow-xs);
+  transform:  translateY(0px);
+}
+.clay-btn:focus-visible {
+  outline:        2px solid var(--clay-ring);
+  outline-offset: 2px;
+}
+
+.clay-btn-ghost {
+  background-color: transparent;
+  color:            var(--clay-primary);
+  border-color:     var(--clay-border);
+  box-shadow:       var(--clay-shadow-xs);
+}
+.clay-btn-ghost:hover {
+  background-color: color-mix(in oklch, var(--clay-primary) 8%, transparent);
+  border-color:     var(--clay-primary);
+  box-shadow:       var(--clay-shadow-sm);
+}
+
+/* ────────────────────────────────────────────────────────────
+   BADGE / CHIP  —  .clay-badge
+   ──────────────────────────────────────────────────────────── */
+.clay-badge {
+  display:          inline-flex;
+  align-items:      center;
+  gap:              0.25rem;
+  padding:          0.2em 0.65em;
+  border-radius:    var(--clay-radius-pill);
+  font-size:        0.75rem;
+  font-weight:      600;
+  background-color: color-mix(in oklch, var(--clay-primary) 12%, transparent);
+  color:            var(--clay-primary);
+  border:           1px solid color-mix(in oklch, var(--clay-primary) 28%, transparent);
+  box-shadow:       var(--clay-shadow-2xs);
+}
+
+/* ────────────────────────────────────────────────────────────
+   SHADOW HELPERS  (apply standalone to any element)
+   ──────────────────────────────────────────────────────────── */
+.clay-shadow-2xs { box-shadow: var(--clay-shadow-2xs); }
+.clay-shadow-xs  { box-shadow: var(--clay-shadow-xs);  }
+.clay-shadow-sm  { box-shadow: var(--clay-shadow-sm);  }
+.clay-shadow-md  { box-shadow: var(--clay-shadow-md);  }
+.clay-shadow-lg  { box-shadow: var(--clay-shadow-lg);  }
+.clay-shadow-xl  { box-shadow: var(--clay-shadow-xl);  }
+.clay-shadow-2xl { box-shadow: var(--clay-shadow-2xl); }
