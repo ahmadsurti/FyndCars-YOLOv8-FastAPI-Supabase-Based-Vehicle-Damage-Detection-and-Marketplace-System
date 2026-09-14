@@ -1,7 +1,10 @@
 import { useRef, useEffect, useState } from 'react'
+import { useNavigate } from '@tanstack/react-router'
 import { Navbar } from './components/Navbar'
 import { HeroHeadline } from './components/HeroHeadline'
 import { FeatureCards } from './components/FeatureCards'
+import { AuthModal } from '@/features/auth/AuthModal'
+import { useAuthStore } from '@/lib/auth/auth-store'
 
 export function LandingPage() {
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -37,6 +40,13 @@ export function LandingPage() {
   const exitProgress = Math.min(Math.max((scrollProgress - 0.92) / 0.08, 0), 1)
   const dimOpacity = 0.25 + exitProgress * 0.70
   const textOpacity = Math.max(1 - exitProgress * 1.4, 0)
+
+  const navigate = useNavigate()
+  const { isAuthenticated, profile, openAuthModal, initializeAuth } = useAuthStore()
+
+  useEffect(() => {
+    initializeAuth()
+  }, [initializeAuth])
 
   return (
     <main className="relative bg-black text-[var(--foreground)] antialiased selection:bg-[var(--primary)] selection:text-[var(--primary-foreground)]">
@@ -87,15 +97,30 @@ export function LandingPage() {
       </div>
 
       {/* Auth CTA Trigger */}
-      <section className="relative z-20 bg-[#08090c] pb-32 pt-12 flex justify-center items-center">
+      <section className="relative z-20 bg-[#08090c] pb-32 pt-12 flex flex-col justify-center items-center gap-3">
         <button
           type="button"
           id="cta-sign-in-btn"
-          className="rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-black transition-all duration-300 hover:bg-neutral-200 hover:scale-[1.03] active:scale-[0.98] shadow-2xl cursor-pointer"
+          onClick={() => {
+            if (isAuthenticated) {
+              navigate({ to: '/app' })
+            } else {
+              openAuthModal('signin')
+            }
+          }}
+          className="rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-black transition-all duration-300 hover:bg-neutral-200 hover:scale-[1.03] active:scale-[0.98] shadow-2xl cursor-pointer flex items-center gap-2"
         >
-          Sign In
+          <span>
+            {isAuthenticated
+              ? `Enter Command Center (${profile?.fullName || profile?.email?.split('@')[0] || 'Member'})`
+              : 'Sign In'}
+          </span>
+          <span className="text-black/60 font-mono">→</span>
         </button>
       </section>
+
+      {/* Global Auth Modal */}
+      <AuthModal />
     </main>
   )
 }

@@ -12,10 +12,14 @@ import {
   forwardRef,
   useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
 } from "react";
+
+const useIsomorphicLayoutEffect =
+  typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 import { cn } from "@/lib/utils";
 
@@ -194,6 +198,10 @@ const DiaTextReveal = forwardRef<HTMLSpanElement, DiaTextRevealProps>(
       (): NonNullable<DiaTextMotionProps["style"]> => ({
         display: "inline-block",
         verticalAlign: "baseline",
+        fontFamily: "inherit",
+        fontSize: "inherit",
+        fontWeight: "inherit",
+        fontStyle: "normal",
         color: "transparent",
         backgroundClip: "text",
         WebkitBackgroundClip: "text",
@@ -283,13 +291,7 @@ const DiaTextReveal = forwardRef<HTMLSpanElement, DiaTextRevealProps>(
       return clearCycle;
     }, [clearCycle, isVisible, once]);
 
-    useEffect(() => {
-      if (!isControlled) return;
-      playRef.current();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [isControlled, externalIndex]);
-
-    useEffect(() => {
+    useIsomorphicLayoutEffect(() => {
       if (!isMulti) {
         textOpacity.set(1);
         textBlur.set(0);
@@ -300,20 +302,25 @@ const DiaTextReveal = forwardRef<HTMLSpanElement, DiaTextRevealProps>(
 
       if (previousActiveIndexRef.current === activeIndex) return;
       previousActiveIndexRef.current = activeIndex;
-      textOpacity.set(0.58);
-      textBlur.set(8);
-      textShift.set(5.5);
 
-      const opacityControls = animate(textOpacity, 1, { duration: 0.26, ease: TEXT_SWAP_EASE });
-      const blurControls = animate(textBlur, 0, { duration: 0.34, ease: TEXT_SWAP_EASE });
-      const shiftControls = animate(textShift, 0, { duration: 0.34, ease: TEXT_SWAP_EASE });
+      // SYNCHRONOUSLY reset BEFORE paint to ensure the new word starts invisible and sweeps in with zero flicker
+      sweepPos.set(SWEEP_START);
+      textOpacity.set(0);
+      textBlur.set(6);
+      textShift.set(4);
+
+      const opacityControls = animate(textOpacity, 1, { duration: 0.35, ease: TEXT_SWAP_EASE });
+      const blurControls = animate(textBlur, 0, { duration: 0.35, ease: TEXT_SWAP_EASE });
+      const shiftControls = animate(textShift, 0, { duration: 0.35, ease: TEXT_SWAP_EASE });
+
+      playRef.current();
 
       return () => {
         opacityControls.stop();
         blurControls.stop();
         shiftControls.stop();
       };
-    }, [activeIndex, isMulti, textBlur, textOpacity, textShift]);
+    }, [activeIndex, isMulti, textBlur, textOpacity, textShift, sweepPos]);
 
     useEffect(() => clearCycle, [clearCycle]);
 

@@ -65,10 +65,26 @@ export function HeroHeadline({ scrollProgress = 0 }: { scrollProgress?: number }
           A car is more than a listing
         </p>
         <p className="font-light text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-tight text-white leading-snug">
-          <span>A</span>
-          <DiaText text={SUBJECTS} externalIndex={activeIdx} triggerOnView={false} once={false} duration={1.1} textColor="#ffffff" className="mx-1.5 sm:mx-2" />
-          <span>can show</span>
-          <DiaText text={OBJECTS} externalIndex={activeIdx} triggerOnView={false} once={false} duration={1.1} textColor="#ffffff" className="ml-1.5 sm:ml-2" />
+          <span className="font-light inline align-baseline">A</span>
+          <DiaText
+            text={SUBJECTS}
+            externalIndex={activeIdx}
+            triggerOnView={false}
+            once={false}
+            duration={1.1}
+            textColor="#ffffff"
+            className="mx-[0.25em] font-light text-inherit inline-block align-baseline"
+          />
+          <span className="font-light inline align-baseline">can show</span>
+          <DiaText
+            text={OBJECTS}
+            externalIndex={activeIdx}
+            triggerOnView={false}
+            once={false}
+            duration={1.1}
+            textColor="#ffffff"
+            className="ml-[0.25em] font-light text-inherit inline-block align-baseline"
+          />
         </p>
       </div>
 

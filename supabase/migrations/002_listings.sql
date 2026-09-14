@@ -73,7 +73,8 @@ create table public.listing_documents (
   listing_id          uuid not null references public.listings (id) on delete cascade,
   document_type       text not null
                         constraint doc_type_check check (
-                          document_type in ('ownership_title', '-- RC (India') | Title/Pink Slip (USA) | V5C (UK) | Carte Grise (EU)
+                          document_type in (
+                            'ownership_title',    -- RC (India) | Title/Pink Slip (USA) | V5C (UK) | Carte Grise (EU)
                             'road_inspection',    -- PUC (India) | Smog/Inspection (USA) | MOT (UK) | TÜV (EU)
                             'insurance_proof',    -- Comprehensive / Third-party policy
                             'loan_clearance',     -- Bank NOC / Form 35 / Lien release

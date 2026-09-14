@@ -2,94 +2,129 @@
 
 ---
 
-## Phase 0: Prerequisites & Environment Setup (Your Actions)
-- [ ] **Git Backup & Commit**:
-  - `git add .`
-  - `git commit -m "feat(landing): complete animated hero, narrative reveal, and features"`
-  - `git push origin main` (or current branch) to preserve current baseline.
-- [ ] **Supabase Database Provisioning**:
-  - Create a new project in [Supabase Dashboard](https://supabase.com/dashboard).
-  - Copy API credentials:
-    - Project URL (`SUPABASE_URL`)
-    - Anon / Public Key (`SUPABASE_ANON_KEY`)
-    - Service Role Key (`SUPABASE_SERVICE_ROLE_KEY`)
-    - JWT Secret (`SUPABASE_JWT_SECRET`)
-- [ ] **Execute Supabase SQL Migrations (In Order)**:
-  - Run via Supabase SQL Editor:
-    1. `001_profiles.sql` (auth.users extension, role check, triggers)
-    2. `002_listings.sql` (listings table, status machine, RLS)
-    3. `003_assessments.sql` (YOLO detection traces, damage storage)
-    4. `004_storage_and_messages.sql` (storage buckets `car-images`, `car-documents`, messaging table)
-    5. `005_marketplace_extensions.sql` (reviews, saved listings, alerts, subscriptions)
-    6. `006_sold_tracking.sql` (sale confirmation & buyer verification)
-    7. `007_verification_telemetry_and_catalog.sql` (vehicle catalog & telemetry indices)
-    8. `008_vehicle_catalog_seed.sql` (catalog data)
-    9. `seed_admin.sql` (initial admin user bootstrap)
-- [ ] **Configure Environment Variables**:
-  - `backend/.env` (FastAPI keys, Supabase URLs, secrets)
-  - `frontend/.env` (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_API_BASE_URL`)
+## Phase 0: Prerequisites & Environment Setup
+- [x] **Git Backup & Commit**: Completed & pushed.
+- [x] **Supabase Database Provisioning**: Project provisioned (`iguprpfxdqvqsyeedftd.supabase.co`).
+- [x] **Configure Environment Variables**:
+  - `backend/.env` populated with live credentials & verified via live DB test.
+  - `frontend/.env` populated with `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
+- [x] **Execute Supabase SQL Migrations (In Order)**:
+  - [x] `001_profiles.sql` — Ran with no errors & verified by backend test.
+  - [x] `002_listings.sql` — Ran with no errors.
+  - [x] `003_assessments.sql` — Ran with no errors.
+  - [x] `004_storage_and_messages.sql` — Ran with no errors (storage buckets auto-created).
+  - [x] `005_marketplace_extensions.sql` — Ran with no errors.
+  - [x] `006_sold_tracking.sql` — Ran with no errors.
+  - [x] `007_verification_telemetry_and_catalog.sql` — Ran with no errors.
+  - [x] `008_vehicle_catalog_seed.sql` — Ran with no errors.
+  - [x] `seed_admin.sql` — Ran with no errors.
 
 ---
 
 ## Phase 1: Authentication & Entry Modal
-- [ ] **Implement Login / Sign-In Modal**:
-  - Triggered by the clean white CTA button below Feature Cards.
-  - Integrate user-provided login modal code & design.
-  - Support email/password, magic link, and demo roles (`admin`, `seller`, `buyer`).
-- [ ] **Session & Role Provider**:
-  - Initialize Supabase Auth client session listener.
-  - Route user post-auth to unified dashboard or admin portal based on role.
+- [x] **Implement Login / Sign-In Modal**:
+  - Triggered by clean white CTA button below Feature Cards.
+  - High-end dual banner crossfade (`welcometothecult.jpg` / `welcomeback.jpg`).
+  - Hero-matched rotating `DiaText` with 0.25em word spacing and baseline alignment.
+  - Interactive draggable/slideable spring-physics mode toggle with 45° hover tilt CTA.
+  - 1-click Demo accounts for Admin, Seller, and Buyer.
+- [/] **Session & Role Provider**:
+  - [x] Supabase Auth client session listener & Zustand store initialized.
+  - [ ] Auto-route user post-auth to unified dashboard (`/app`) or admin portal (`/admin`).
 
 ---
 
-## Phase 2: Design System & Dashboard Shell Integration (from `shadcn-admin-main`)
-- [ ] **Adopt Shadcn Dashboard Architecture**:
-  - Integrate core components: `Sidebar`, `Sheet`, `Dialog`, `Table`, `Tabs`, `CommandMenu`.
-  - Port **`ConfigDrawer`** customization feature:
-    - Theme switching (Dark, Light, System) with `#08090c` dark palette.
-    - Layout switcher (Default, Compact, Full).
-    - Sidebar modes (Sidebar, Floating, Inset).
-    - Direction (LTR, RTL).
-- [ ] **Unified App Shell (`/app`)**:
-  - Persistent floating/inset sidebar with user profile badge, mode switch, and quick actions.
-  - Top header with search command menu (`Cmd+K`), notification bell, theme trigger, and `ConfigDrawer`.
+## Phase 2: Design System & Unified Dashboard Shell Integration (`/app`)
+- [x] **Universal Dashboard Shell Integration (`dashboard-shell`)**:
+  - Replaced ad-hoc layout wrappers with `<DashboardLayout>` from `dashboard-shell/components/layout/DashboardLayout`.
+  - Wrapped application in `<ThemeProvider>` from `dashboard-shell/context/theme-provider`.
+  - Imported `dashboard-shell/styles/theme.css` in `frontend/src/index.css`.
+  - Configured `sidebarProps` with clean, Lucide React navigation groups (Marketplace, Selling, Inbox, Admin Operations).
+  - Streamlined `DashboardOverview` and placeholder screens: eliminated duplicate headers and redundant icon clutter.
+  - Resolved all TypeScript indexing and module resolution errors across `dashboard-shell`.
+- [x] **Unified App Shell (`/app`)**:
+  - Responsive collapsible sidebar with active indicator, unread badges, and user profile pill (`NavUser`).
+  - Header with `Cmd+K` trigger, unread messages badge, quick list button, and `ConfigDrawer` trigger.
+- [x] **Sidebar Navigation Hierarchy**:
+  - **Marketplace**: *Command Center* (`/app`), *Explore Inventory* (`/app/explore`), *Saved Shortlist* (`/app/saved`), *Search Alerts* (`/app/alerts`).
+  - **Selling**: *+ Sell a Car* (`/app/sell`), *My Listings* (`/app/my-listings`), *Reputation & Reviews* (`/app/reviews`).
+  - **Inbox**: *Messages* (`/app/messages` with live unread count).
+  - *(If Admin)*: *Admin Operations* section (`/admin/queue`, `/admin/stats`, `/admin/audit`).
+- [x] **Starting Screen — Unified Command Center (`/app`)**:
+  - Personalized Greeting banner (*"Welcome back, [Name]"*) with dual primary CTAs (*"Explore Marketplace"* & *"+ List a Car"*).
+  - Live KPI Telemetry Cards: Saved cars count (`/saved-listings`), active alerts (`/search-alerts`), active listings (`/listings/mine`), inspection trust score (`99.4%` / `5.0`).
+  - Quick Garage Shelf: 4-gate AI multi-modal engine tracker & 1-click resume card for draft listings.
+  - Curated Marketplace Feed Preview: Latest verified-clean inventory preview (`/listings?status_filter=active&sort=newest&limit=6`) with interactive specs and damage badges.
+- [x] **Post-Auth Routing & Role Redirection**:
+  - Wire landing page login button to immediately navigate to `/app` upon successful session.
+  - Route demo role triggers (Admin, Seller, Buyer) directly to `/app`.
 
 ---
 
 ## Phase 3: Seller Flow — AI-Powered Intake Pipeline
-- [ ] **Vehicle Intake Interface (`/app/sell`)**:
-  - Multi-file image dropzone (3–15 car photos, quality validation).
-  - Registration Certificate (RC) upload (PDF/image).
-- [ ] **Realtime Processing Status**:
-  - Visual feedback for pipeline execution:
-    - *Gate 0*: Image clarity/luminance check.
-    - *Gate 1a*: YOLOv8 damage inspection (scratches, dents, cracks).
-    - *Gate 1b*: Docling RC entity extraction (Make, Model, Year, Fuel, Plate).
-    - *Gate 1c*: Gemma multimodal VLM verification & odometer reading.
-- [ ] **Autofilled Listing Review & Pricing**:
-  - Display extracted car specs & detected damages overlay.
-  - Allow seller to review/edit pricing, city, description.
-  - Submit listing (`POST /listings/{id}/submit`) triggering policy triage (`AUTO_APPROVE` vs `HUMAN_REVIEW`).
+- [ ] **Multi-Step Vehicle Intake Stepper (`/app/sell`)**:
+  - **Step 1: Upload Dropzone**:
+    - 3 to 15 vehicle photos (enforcing 25MB backend limit per file).
+    - 1 Registration Certificate (RC) PDF or image.
+    - Drag-and-drop ordering and primary image selector (`is_primary`).
+  - **Step 2: Live 4-Gate AI Scan Animation (`POST /listings/auto-extract`)**:
+    - Real-time animated progress steps with checkmarks:
+      - *Gate 0*: Image clarity & luminance check (OpenCV).
+      - *Gate 1a*: YOLOv8 defect inspection (scratches, dents, cracks bounding boxes).
+      - *Gate 1b*: Docling OCR & entity extraction (Make, Model, Year, Fuel, VIN, Plate).
+      - *Gate 1c*: Gemma VLM verification (odometer readout & document cross-match).
+      - *Gate 2*: Draft listing created in DB with telemetry metadata.
+  - **Step 3: Autofilled Specs & Pricing Review (`PATCH /listings/{id}`)**:
+    - Pre-filled specs from RC & VLM (Make, Model, Year, Variant, Fuel, Owners, Plate, Mileage).
+    - Seller inputs missing fields: `price`, `city`, `transmission`, `description`, `features` tags.
+    - Detected damage preview with estimated repair costs.
+  - **Step 4: Submission & Anti-Fraud Guard (`POST /listings/{id}/submit`)**:
+    - Odometer delta guard (flagged if >1500 km delta) & plate mismatch verification.
+    - Triage outcome feedback card: `AUTO_APPROVE` (`active`), `HUMAN_REVIEW` (`pending`), or `ESCALATE` (`escalated`).
+- [ ] **My Listings & Inventory Manager (`/app/my-listings`)**:
+  - Filter tabs: **All**, **Active**, **Pending Review**, **Drafts**, **Sold** (`GET /listings/mine`).
+  - Listing view analytics card: Total views, unique viewers, 7-day trend (`GET /listings/{id}/views`).
+  - Edit draft (`PATCH /listings/{id}`), Delete draft (`DELETE /listings/{id}`).
+  - Mark as Sold modal (`POST /listings/{id}/sell`) with buyer ID selection to unlock buyer review.
 
 ---
 
-## Phase 4: Buyer Flow — Marketplace & Discovery
-- [ ] **Marketplace Grid & Search (`/app/explore` or `/app/browse`)**:
-  - Infinite scroll vehicle feed with dynamic catalog filters (Make, Model, Year, Price, Damage status).
-  - Vehicle detail card with YOLO damage badges and Docling verified badge.
-- [ ] **Listing Detail View**:
-  - High-res photo gallery with damage overlay pins.
-  - Assessment report & VLM inspection breakdown.
-  - Messaging trigger to contact seller (`POST /messages`).
-  - Save listing (`POST /saved-listings`) & Search alert creation.
+## Phase 4: Buyer Flow — Marketplace & Vehicle Experience
+- [ ] **Marketplace Feed & Discovery (`/app/explore`)**:
+  - Infinite-scroll vehicle feed with offset pagination (`GET /listings?status=active`).
+  - Catalog-driven cascading filters (Make, Model, Variant, Year range, Price range, Fuel, Transmission, Mileage, City, Feature tags).
+  - Vehicle Card component with photo gallery, `verified_clean` badge, YOLO damage summary badge, and 1-click bookmark.
+- [ ] **Vehicle Deep-Dive & Inspection Report (`/app/listings/$listingId`)**:
+  - High-res photo gallery with thumbnail strip.
+  - **Interactive YOLO Damage Inspector**: Toggle between clean photo and bounding box overlays (scratch, dent, crack tags, confidence %, repair estimates).
+  - Docling verified document status strip (RC, ownership title, plate readout).
+  - Verified seller profile card (`GET /sellers/{id}/reviews`) with star rating.
+  - Inquire / Message seller modal (`POST /messages`).
+  - Bookmark listing (`POST /saved-listings` / `DELETE /saved-listings/{id}`).
+- [ ] **Saved Shortlist & Comparison (`/app/saved`)**:
+  - Bookmarked vehicles grid.
+  - Side-by-side comparison drawer (compare price, mileage, year, and YOLO defect count).
+- [ ] **Search Alerts & Inventory Drops (`/app/alerts`)**:
+  - Create, edit, toggle, and delete search criteria (`GET /search-alerts`, `POST /search-alerts`).
+  - View live inventory matches in real time (`GET /search-alerts/{id}/matches`).
+- [ ] **Inquiries & Conversations (`/app/messages`)**:
+  - Split-view message thread grouped by listing.
+  - Real-time chat stream with unread badge synchronization.
+- [ ] **Verified Post-Purchase Review**:
+  - Modal triggered for recorded buyer of sold listing (`POST /listings/{id}/reviews`).
 
 ---
 
-## Phase 5: Admin Flow — Operational Moderation & Queue
-- [ ] **Inspection & Triage Queue (`/admin/queue`)**:
-  - Human review queue for `HUMAN_REVIEW` and `ESCALATE` listings.
-  - Side-by-side comparison of seller photos, RC document, and AI damage detections.
-  - Admin override action (Approve / Reject with notes).
-- [ ] **System Analytics & User Control (`/admin`)**:
-  - Platform statistics (Active listings, triage volume, turnaround times).
-  - User role management & audit log table.
+## Phase 5: Admin Operations Portal (`/admin`)
+- [ ] **Moderation & Review Queue (`/admin/queue`)**:
+  - Feed of listings in `pending` and `escalated` status (`GET /queue`).
+  - Side-by-side comparison: Seller photos with YOLO boxes vs RC document vs VLM odometer readout.
+  - Override action: `APPROVE` (`active`) or `REJECT` with mandatory auditable reasoning (`POST /queue/{id}/override`).
+- [ ] **Document Verification Console (`/admin/documents`)**:
+  - Inspect and verify or reject legal documents (`PATCH /admin/documents/{id}/verify`).
+- [ ] **Platform Telemetry & KPIs (`/admin/stats`)**:
+  - Executive dashboard: Status distribution counts, auto-approval rate %, total users, total overrides.
+- [ ] **User & Role Governance (`/admin/users`)**:
+  - User profiles table (`GET /admin/users`) with role update action (`PATCH /admin/users/{id}/role`).
+- [ ] **Auditable Override Log (`/admin/audit`)**:
+  - Immutable audit trail of every assessor override decision (`GET /admin/audit`).

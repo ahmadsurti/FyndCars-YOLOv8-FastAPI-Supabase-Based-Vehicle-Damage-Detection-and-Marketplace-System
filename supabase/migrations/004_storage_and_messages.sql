@@ -6,6 +6,14 @@
 --   car-documents    → legal proof files: RC, Title, Insurance, PUC, NOC (private)
 -- ============================================================
 
+-- Ensure the three storage buckets exist
+insert into storage.buckets (id, name, public)
+values
+  ('car-images', 'car-images', false),
+  ('annotated-images', 'annotated-images', false),
+  ('car-documents', 'car-documents', false)
+on conflict (id) do nothing;
+
 -- ============================================================
 -- 1. car-images bucket policies
 -- ============================================================
